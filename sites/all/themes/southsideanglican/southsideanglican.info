@@ -1,0 +1,25 @@
+name = South Side v2
+description = Custom theme for SSA
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[homepage_slider] = Home Page Slider
+regions[column_left] = Column Left
+regions[column_right] = Column Right
+regions[right_sidebar] = Right Side Bar
+regions[content] = Content
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+
+stylesheets[all][] = css/stylesheets/screen.css
+stylesheets[all][] = open-sans-fontfacekit/stylesheet.css
+
+scripts[] = img_height_width_removal.js
+
+
+
+
+
+

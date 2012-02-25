@@ -1,0 +1,6 @@
+name = "Homepage Main Slider"
+description = "Homepage Main Slider"
+core = "7.x"
+package = "Features"
+version = "7.x-1.0"
+project = "homepage_main_slider"

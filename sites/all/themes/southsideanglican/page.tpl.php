@@ -12,8 +12,9 @@
   <?php print render($page['page_slider']); ?>
 <?php endif; ?>  
 
+<div class="drupal_messages">
 <?php print render($messages); ?>
-
+</div>
 
 
 <div id="page-content-wrapper">

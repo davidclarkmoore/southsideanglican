@@ -5,6 +5,8 @@ engine = phptemplate
 
 regions[header] = Header
 regions[homepage_slider] = Home Page Slider
+regions[page_slider] = Page Slider
+
 regions[column_left] = Column Left
 regions[column_right] = Column Right
 regions[right_sidebar] = Right Side Bar

@@ -1,0 +1,13 @@
+name =  "Menu Trail By Path"
+description = "Set The Menu Trail By Path."
+package = Other
+core = 7.x
+dependencies[] = menu
+dependencies[] = path
+
+; Information added by drupal.org packaging script on 2011-11-30
+version = "7.x-2.0-rc1"
+core = "7.x"
+project = "menu_trail_by_path"
+datestamp = "1322634659"
+

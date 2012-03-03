@@ -1,14 +1,14 @@
-name = South Side v2
+name = southsideanglican
 description = Custom theme for SSA
 core = 7.x
 engine = phptemplate
 
 regions[header] = Header
 regions[homepage_slider] = Home Page Slider
-regions[page_slider] = Page Slider
+regions[page_header]= Page Header
 
-regions[column_left] = Column Left
-regions[column_right] = Column Right
+regions[column_one] = Column One
+regions[column_two] = Column Two
 regions[right_sidebar] = Right Side Bar
 regions[content] = Content
 regions[footer_firstcolumn] = Footer first column
@@ -18,7 +18,9 @@ regions[footer_thirdcolumn] = Footer third column
 stylesheets[all][] = css/stylesheets/screen.css
 stylesheets[all][] = open-sans-fontfacekit/stylesheet.css
 
-scripts[] = img_height_width_removal.js
+scripts[] = scripts/img_height_width_removal.js
+scripts[] = scripts/clear-text.js
+
 
 
 

@@ -15,15 +15,15 @@
 <?php print render($messages); ?>
 
 <div id="column-wrapper">
-<?php if ($page['column_left']): ?>    
+<?php if ($page['column_one']): ?>    
 
-  <?php print render($page['column_left']); ?>
+  <?php print render($page['column_one']); ?>
 
 <?php endif; ?>  
 
-<?php if ($page['column_right']): ?>    
+<?php if ($page['column_two']): ?>    
 
-  <?php print render($page['column_right']); ?>
+  <?php print render($page['column_two']); ?>
 
 <?php endif; ?>  
 </div>

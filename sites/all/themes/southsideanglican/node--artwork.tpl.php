@@ -79,6 +79,7 @@
  */
 ?>
 
+<?php if ($title): ?><h1><?php print render($title); ?></h1><?php endif; ?>
 
 <?php
 $view = views_get_view('artwork_slider');
@@ -88,11 +89,6 @@ if (!empty($view->result)) {
   print $output;
 }
 
-?>
-
-
-<?php
-print render($node->nid);
 ?>
     <?php
       // We hide the comments and links now so that we can render them later.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="test-body-ssa">
 
 <head>
     <?php print render($head); ?>

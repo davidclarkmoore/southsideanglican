@@ -78,6 +78,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	#logo {
 	width: 80%;
 	margin: 0 auto;
+	clear:both;
 	}
 	
 	
@@ -300,6 +301,18 @@ height: 100%;
 float:left;
 }
 
+@media all and (max-device-width: 4500px) and (min-device-width: 640px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) { 
+
+	.front .region-column-one,.front .region-column-two {
+	width: 98%;
+	margin: 1%;
+	height: 100%;
+	clear:both;
+	}
+
+}
+
 #edit-mailchimp-lists-mailchimp-1-title label {
 color: #000000;
 font-size: 170%;
@@ -316,6 +329,7 @@ letter-spacing: -1px;
 .region-content {
 clear:both;
 }
+
 
 #page-content {
 width: 68%;
@@ -336,7 +350,28 @@ float:left;
     width: 100%;
 }
 
+@media all and (max-device-width: 4500px) and (min-device-width: 640px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) { 
 
+		#page-content {
+		width: 98%;
+		margin: 1%;
+		clear:both;
+		}
+		
+		#page-column-wrapper {
+		width: 98%;
+		margin: 1%;
+		clear:both;
+		}
+		
+		#page-content-wrapper {
+			clear: both;
+			height: 100%;
+			overflow: hidden;
+			width: 100%;
+		}
+}
 
 /*---------------- Mail Chimp --------------- */
 
@@ -736,6 +771,18 @@ footer {
 
 .region-footer-firstcolumn, .region-footer-secondcolumn {
  	margin-right: 2%;
+}
+
+@media all and (max-device-width: 4500px) and (min-device-width: 640px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) { 
+
+		.region-footer-firstcolumn, .region-footer-secondcolumn, .region-footer-thirdcolumn {
+			clear:both;
+			width:98;
+			margin: 1%;
+		}
+		
+
 }
 
 .view-upcoming-events {

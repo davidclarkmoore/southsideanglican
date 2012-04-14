@@ -81,14 +81,14 @@
 
 <?php if ($title): ?><h1><?php print render($title); ?></h1><?php endif; ?>
 
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
-      hide($content['links']);
-      print render($content);
-    ?>
+<?php
+  // We hide the comments and links now so that we can render them later.
+  hide($content['comments']);
+  hide($content['links']);
+  print render($content);
+?>
     
- <?php
+<?php
 $view = views_get_view('content_wiper_slider');
 $args = array($node->nid);
 $output = $view->preview('block', $args);

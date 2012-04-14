@@ -89,7 +89,7 @@
     ?>
     
  <?php
-$view = views_get_view('content_wiper');
+$view = views_get_view('content_wiper_slider');
 $args = array($node->nid);
 $output = $view->preview('block', $args);
 if (!empty($view->result)) {

@@ -225,19 +225,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 
-
-#views_slideshow_cycle_teaser_section_homepage_slider-block a {
-display:block;
-height: 100%;
-width: 100%;
-margin: 0;
-padding:0;
-}
-
-#views_slideshow_cycle_teaser_section_homepage_slider-block a img {
-display:block;
-margin: 0;
-padding:0;
+.views_slideshow_cycle_main {
+overflow:hidden;
 }
 
 

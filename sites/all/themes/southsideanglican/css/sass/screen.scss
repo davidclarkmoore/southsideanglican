@@ -71,10 +71,9 @@ clear:both;
 #header {
 width:100%;
 height: 100%;
-border-bottom: 1px solid #898989;
 }
 
-@media all and (max-width: 640px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media all and (max-width: 700px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5)  {
 	#logo {
 	width: 80%;
@@ -92,7 +91,8 @@ only screen and (min-device-pixel-ratio : 1.5)  {
 	}
 
 }
-@media all and (max-width: 4500px) and (min-width: 640px) {
+
+@media all and (max-width: 4500px) and (min-width: 700px) {
 	#logo {
 	width: 45%;
 	float:left;
@@ -182,6 +182,9 @@ max-width: 100%;
 
 }
 
+a img {
+display:block;
+}
 
 #views_slideshow_cycle_main_homepage_slider-block, #views_slideshow_cycle_main_homepage_slider-block > div, #views_slideshow_cycle_main_homepage_slider-block div {
 
@@ -195,7 +198,7 @@ clear:both;
 
 }
 
-@media all and (max-width: 640px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media all and (max-width: 700px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 
 	#views_slideshow_cycle_teaser_section_homepage_slider-block {
@@ -213,23 +216,29 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 }
 
-@media all and (max-device-width: 4500px) and (min-device-width: 640px) { 
+@media all and (max-device-width: 4500px) and (min-device-width: 700px) { 
 
 #views_slideshow_cycle_teaser_section_homepage_slider-block {
 	border: 4px solid #FFFFFF;
-	box-shadow: 0px 2px 5px #888;
+	box-shadow: 0px 2px 8px #888;
 	z-index: 1;
-
 	margin: 0;
 	max-width: 96%;
 	margin: 0 auto;
+	
+		a {
+			margin: 0;
+			padding: 0;
+			line-height:0;
+		}
 	}
 
 }
 
+/* toggle this if the box-shadow is looking strange.. */
 
 .views_slideshow_cycle_main {
-overflow:hidden;
+overflow:visible;
 }
 
 
@@ -283,7 +292,7 @@ overflow: auto;
 }
 
 
-@media all and (max-device-width: 4500px) and (min-device-width: 640px) {
+@media all and (max-device-width: 4500px) and (min-device-width: 7000px) {
 	.front .region-column-one,.front .region-column-two {
 	width: 48%;
 	margin: 1%;
@@ -292,7 +301,7 @@ overflow: auto;
 	}
 }
 
-@media all and (max-width: 640px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media all and (max-width: 700px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5)  { 
 
 	.front .region-column-one,.front .region-column-two {
@@ -321,7 +330,7 @@ letter-spacing: -1px;
 clear:both;
 }
 
-@media all and (max-device-width: 4500px) and (min-device-width: 640px) {
+@media all and (max-device-width: 4500px) and (min-device-width: 700px) {
 		#page-content {
 		width: 68%;
 		margin-right: 2%;
@@ -342,7 +351,7 @@ clear:both;
 		}
 }
 
-@media all and (max-width: 640px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media all and (max-width: 700px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5)  { 
 
 		#page-content {
@@ -535,10 +544,14 @@ margin: 2% 0% 1% 0%;
 }
 
 
-div.node-article div.field-name-field-image img {
-float: right;
-margin: 2%;
-@include box-shadow(#888888 0px 2px 5px);
+div.node-article, div.node-page, div.node-sermon {
+
+	div.field-name-field-image img {
+	float: right;
+	margin: 2%;
+	@include box-shadow(#888888 0px 2px 5px);
+	}
+
 }
 
 
@@ -817,7 +830,7 @@ footer {
 	}
 }
 
-@media all and (max-device-width: 4500px) and (min-device-width: 640px) { 
+@media all and (max-device-width: 4500px) and (min-device-width: 700px) { 
 
 
 	.region-footer-firstcolumn, .region-footer-secondcolumn, .region-footer-thirdcolumn {
@@ -832,7 +845,7 @@ footer {
 }
 
 
-@media all and (max-width: 640px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media all and (max-width: 700px) and (min-width: 100px), only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 
 		.region-footer-firstcolumn, .region-footer-secondcolumn, .region-footer-thirdcolumn {

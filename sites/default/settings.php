@@ -182,9 +182,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'episcop4_southsideangican_prod',
-      'username' => 'episcop4_ssa',
-      'password' => 'Ssa&SKR*1',
+      'database' => 'episcop4_southsideanglican_prod',
+      'username' => 'episcop4_ssaprod',
+      'password' => 'SSA12*p',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
@@ -223,7 +223,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'Lu06NXgTydZMyu52PC1_JWkydb5X43oo8ckQPh-vudo';
+$drupal_hash_salt = 'tTi1CpMxuxx0VlBYTUHdrophxszUe1sg7OBaGYQAf2c';
 
 /**
  * Base URL (optional).

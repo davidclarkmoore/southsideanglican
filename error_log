@@ -1,0 +1,7 @@
+[21-Apr-2012 12:04:42] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:04:48] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:04:51] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:04:58] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:05:05] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:06:10] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[21-Apr-2012 12:06:18] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359

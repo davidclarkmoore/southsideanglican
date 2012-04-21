@@ -184,9 +184,9 @@ $databases = array (
     array (
       'database' => 'episcop4_southsideangican_prod',
       'username' => 'episcop4_ssa',
-      'password' => 'Ssa&SKR*',
+      'password' => 'Ssa&SKR*1',
       'host' => 'localhost',
-      'port' => '3306',
+      'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
     ),

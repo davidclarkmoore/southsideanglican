@@ -40,7 +40,7 @@ Disallow: /MAINTAINERS.txt
 Disallow: /update.php
 Disallow: /UPGRADE.txt
 Disallow: /xmlrpc.php
-
+Allow: /sitemap.xml
 
 # Paths (clean URLs)
 Disallow: /admin/

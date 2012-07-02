@@ -19,15 +19,12 @@
 
 User-agent: *
 Crawl-delay: 10
-
-# Directories
 Disallow: /includes/
 Disallow: /misc/
 Disallow: /modules/
 Disallow: /profiles/
 Disallow: /scripts/
 Disallow: /themes/
-# Files
 Disallow: /CHANGELOG.txt
 Disallow: /cron.php
 Disallow: /INSTALL.mysql.txt
@@ -41,8 +38,6 @@ Disallow: /update.php
 Disallow: /UPGRADE.txt
 Disallow: /xmlrpc.php
 Allow: /sitemap.xml
-
-# Paths (clean URLs)
 Disallow: /admin/
 Disallow: /comment/reply/
 Disallow: /filter/tips/
@@ -52,7 +47,6 @@ Disallow: /user/register/
 Disallow: /user/password/
 Disallow: /user/login/
 Disallow: /user/logout/
-# Paths (no clean URLs)
 Disallow: /?q=admin/
 Disallow: /?q=comment/reply/
 Disallow: /?q=filter/tips/

@@ -5,3 +5,13 @@
 [21-Apr-2012 12:05:05] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
 [21-Apr-2012 12:06:10] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
 [21-Apr-2012 12:06:18] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 550749 bytes) in /home1/episcop4/public_html/southside/includes/cache.inc on line 359
+[07-Oct-2012 15:20:15] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:20:19] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:23:04] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:24:20] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:24:59] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:26:35] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:27:07] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:29:28] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:30:10] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913
+[07-Oct-2012 15:31:12] PHP Fatal error:  Call to undefined function  entity_i18n_string() in /home1/episcop4/public_html/southside/sites/all/modules/field_collection/field_collection.module on line 913

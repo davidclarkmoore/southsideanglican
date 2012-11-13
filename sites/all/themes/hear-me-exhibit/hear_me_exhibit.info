@@ -1,0 +1,32 @@
+name = hearmeexhibit
+description = Custom theme for the hear me exhibit
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[homepage_slider] = Home Page Slider
+regions[page_header]= Page Header
+
+regions[sidebar] = Right Side Bar
+regions[content] = Content
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+
+
+stylesheets[all][] = css/stylesheets/overall.css
+stylesheets[screen][] = css/stylesheets/screen-small.css
+stylesheets[screen and (min-width: 760px)][] = css/stylesheets/screen.css
+
+stylesheets[all][] = css/stylesheets/open-sans-fontfacekit/stylesheet.css
+stylesheets[all][] = css/stylesheets/arvilwebfont/arvil.css
+
+scripts[] = scripts/clear-text.js
+scripts[] = scripts/custom.js
+
+
+
+
+
+
+

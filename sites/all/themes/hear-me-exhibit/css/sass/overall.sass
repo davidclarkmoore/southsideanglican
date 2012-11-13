@@ -1,0 +1,91 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3"
+@import "compass/reset"
+
+
+$darkgrey: #1A1A1A
+$grey: #AAA
+$lightgrey: #B0B0B0
+$white: #fff
+$green: #68b418
+$black: #000
+
+/*---------------- Overall Styles ---------------- */
+
+html
+	+box-shadow(inset 0px 5px 15px $black)
+body 
+	background-color: $darkgrey
+	width: 95%
+	margin: 0 auto
+
+
+h1, h2, h3, h4, h5, p, a, label, span, em, li 
+	font-family: 'OpenSansRegular'
+	font-style: normal
+
+
+
+h1, h2 
+	font-size: 170%
+	margin: 1% 0% 1% 0%
+	padding: 0px
+	text-shadow: 0px 1px 0px $black
+	letter-spacing: -1px
+	line-height: 120%
+	color: $white
+
+
+
+p, a, label, em 
+	font-family: 'OpenSansRegular'
+	font-size: 100%
+	font-style: normal
+	line-height: 140%
+	color: $grey
+
+h1 span
+	color: $lightgrey
+	font-size: 50%
+	text-shadow: 0px 0px 0px $white
+	margin-left: 1%
+
+p 
+	line-height: 140%
+	margin: 3% 0% 2% 0%
+
+
+label 
+	margin: 0px
+	padding: 0px
+
+
+embed, iframe 
+	@include box-shadow(5px)
+
+img
+	margin: 0
+	padding: 0
+	line-height: 0
+
+a
+	text-decoration: none
+
+
+.drupal_messages 
+	clear:both
+
+
+
+#socialwrapper 
+	.socialbutton 
+		height: 30px
+		width: 60px
+		float:left
+
+
+

@@ -1,0 +1,192 @@
+@import "compass/css3"
+
+
+$darkgrey: #1A1A1A
+$grey: #AAA
+$lightgrey: #B0B0B0
+$white: #fff
+$green: #68b418
+$black: #000
+
+/*---------------- Header ---------------- */
+
+#church-link
+	width: 100%
+	text-align: center
+	margin: 1% 0 .5% 0
+
+#share-link
+	width: 100%
+	text-align: center
+	margin: .5% 0 2% 0
+	a
+		margin: 0 1% 0 1%
+
+#hear-me-logo
+	max-width: 60%
+	height: 78px
+	+border-radius(5px)
+	margin-top: -5px
+	+box-shadow(0px 0px 10px $black)
+	padding: 15% 1% 1% 1%
+	margin: -15% auto 3% auto
+	cursor: pointer
+	text-align: center
+	img
+		width: 193px
+
+h3
+	color: $lightgrey
+
+	a
+		font-family: 'arvil_sansregular'
+		margin: 1% 0% 1% 0%
+		padding: 0%
+		font-size: 120%
+		color: $lightgrey
+		+opacity(.8)
+
+	a:hover
+		+opacity(1)
+		
+
+
+/*---------------- tiles ---------------- */
+
+
+.view-hear-me-your-story-through-tattoos-
+
+	.item-list
+		ul
+			margin: 0
+			padding: 3%
+
+	.view-content
+		+column-count(3)
+		+column-gap(10px)
+
+	.views-row
+		margin-bottom: 10px
+		padding: 2px
+		cursor: pointer
+		+opacity(0)
+		+transition-property(opacity)
+		+transition-duration(1s)
+		+transition-timing-function(ease-in-out)
+		display: inline-block
+
+		.field-name-field-image
+			.field-item
+				line-height: 0
+				img
+					max-width: 100%
+					height: auto
+
+
+		.views-field-view-node
+			display: none
+			visibilty: invisible
+
+		.views-field-title
+			position: relative
+			span
+				top: 0
+				left: 0
+				position: absolute
+				background: rgba(0,0,0,.5)
+
+				a
+					padding: 5px 10px 5px 10px
+					display: block
+					color: white
+					text-decoration: none
+
+
+
+	.fade-in
+		+opacity(1)
+
+	.views-row:hover
+		background: $grey
+
+/*---------------- personal story page ---------------- */
+
+
+.node-type-personal-story
+
+	.hear-me-back-button
+		width: 30px
+		height: 30px
+		background: url('images/back-arrow.png') no-repeat
+		float: left
+		margin-top: 5px
+		cursor: pointer
+
+	.field-slideshow-slide
+		padding: .5%
+
+	.activeSlide
+		background-color: $grey
+
+	.field-slideshow
+		clear: both
+
+	.item-list 
+		ul 
+			margin: 0
+			padding: 0
+			li
+				padding: .5%
+				margin: .5%
+				a
+					line-height: 0
+					display: block
+
+	.field-name-field-tags
+		.field-label
+			text-transform: uppercase
+			font:
+				size: 70%
+				family: 'OpenSansRegular'
+			color: $grey
+			float: left
+	.field-name-field-tags
+		margin: 4% 0 4% 0
+		.field-items
+			.field-item
+				display: inline
+				a
+					font-size: 80%
+					padding: 5px 5px 5px 30px
+					margin: 0 .5% 0 .5%
+					color: $grey
+					text-decoration: none
+					text-transform: uppercase
+					background: url('images/tag-icon.png') left center no-repeat
+
+
+			a:hover
+				border-bottom: 1px dotted $grey
+
+
+/*---------------- footer ---------------- */
+
+footer
+	margin-top: 2%
+	h2
+		font:
+			size: 130%
+		color: $grey
+
+.region-footer-firstcolumn
+	img
+		float: left
+		padding: 0 2% 0 0
+	p
+		
+		font: 
+			size: 80%
+
+
+
+

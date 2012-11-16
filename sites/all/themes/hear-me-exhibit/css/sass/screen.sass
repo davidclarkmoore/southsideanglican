@@ -1,6 +1,15 @@
 @import "compass/css3"
 
 $black: #000
+$darkgrey: #1A1A1A
+$grey: #AAA
+$lightgrey: #B0B0B0
+$white: #fff
+$green: #68b418
+$black: #000
+
+
+
 /*---------------- Header ---------------- */
 
 #church-link
@@ -20,14 +29,20 @@ $black: #000
 		margin: 0 2% 0 2%
 
 #hear-me-logo
-	max-width: 193px
-	height: 78px
+	max-width: 25%
+	height: auto
 	+border-radius(5px)
 	margin-top: -5px
 	+box-shadow(0px 0px 10px $black)
 	padding: 10% 1% 1% 1%
 	margin: -10% auto 3% auto
 	cursor: pointer
+
+h3
+	color: $lightgrey
+
+	a
+		font-size: 120%
 
 
 /*---------------- tiles ---------------- */
@@ -37,6 +52,14 @@ $black: #000
 	.view-content
 		+column-count(5)
 		+column-gap(10px)
+
+	.views-row
+		.field-name-field-image
+			.field-item
+				line-height: 0
+				img
+					max-width: 100%
+					height: auto
 
 /*---------------- personal story page ---------------- */
 

@@ -1,26 +1,178 @@
+/* line 17, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../../../../opt/local/lib/ruby1.9/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*---------------- Overall Styles ---------------- */
+/* line 15, ../sass/screen-small.sass */
+html {
+  -moz-box-shadow: inset 0px 5px 15px black;
+  -webkit-box-shadow: inset 0px 5px 15px black;
+  -o-box-shadow: inset 0px 5px 15px black;
+  box-shadow: inset 0px 5px 15px black;
+}
+
+/* line 17, ../sass/screen-small.sass */
+body {
+  background-color: #1a1a1a;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* line 23, ../sass/screen-small.sass */
+h1, h2, h3, h4, h5, p, a, label, span, em, li {
+  font-family: "OpenSansRegular";
+  font-style: normal;
+}
+
+/* line 29, ../sass/screen-small.sass */
+h1, h2 {
+  font-size: 170%;
+  margin: 1% 0% 1% 0%;
+  padding: 0px;
+  text-shadow: 0px 1px 0px black;
+  letter-spacing: -1px;
+  line-height: 120%;
+  color: white;
+}
+
+/* line 40, ../sass/screen-small.sass */
+p, a, label, em {
+  font-family: "OpenSansRegular";
+  font-size: 100%;
+  font-style: normal;
+  line-height: 140%;
+  color: #aaaaaa;
+}
+
+/* line 47, ../sass/screen-small.sass */
+h1 span {
+  color: #b0b0b0;
+  font-size: 50%;
+  text-shadow: 0px 0px 0px white;
+  margin-left: 1%;
+}
+
+/* line 53, ../sass/screen-small.sass */
+p {
+  line-height: 140%;
+  margin: 3% 0% 2% 0%;
+}
+
+/* line 58, ../sass/screen-small.sass */
+label {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 63, ../sass/screen-small.sass */
+embed, iframe {
+  -moz-box-shadow: 5px;
+  -webkit-box-shadow: 5px;
+  -o-box-shadow: 5px;
+  box-shadow: 5px;
+}
+
+/* line 66, ../sass/screen-small.sass */
+img {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+/* line 71, ../sass/screen-small.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 81, ../sass/screen-small.sass */
+#socialwrapper .socialbutton {
+  height: 30px;
+  width: 60px;
+}
+
 /*---------------- Header ---------------- */
-/* line 12, ../sass/screen-small.sass */
+/* line 87, ../sass/screen-small.sass */
 #church-link {
   width: 100%;
   text-align: center;
   margin: 1% 0 0.5% 0;
 }
 
-/* line 17, ../sass/screen-small.sass */
+/* line 92, ../sass/screen-small.sass */
 #share-link {
   width: 100%;
   text-align: center;
   margin: 0.5% 0 2% 0;
 }
-/* line 21, ../sass/screen-small.sass */
+/* line 96, ../sass/screen-small.sass */
 #share-link a {
   margin: 0 1% 0 1%;
 }
 
-/* line 24, ../sass/screen-small.sass */
+/* line 99, ../sass/screen-small.sass */
 #hear-me-logo {
-  max-width: 60%;
-  height: 78px;
+  max-width: 95%;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -32,43 +184,44 @@
   -webkit-box-shadow: 0px 0px 10px black;
   -o-box-shadow: 0px 0px 10px black;
   box-shadow: 0px 0px 10px black;
-  padding: 15% 1% 1% 1%;
-  margin: -15% auto 3% auto;
+  padding: 20% 1% 1% 1%;
+  margin: -20% auto 3% auto;
   cursor: pointer;
   text-align: center;
 }
-/* line 34, ../sass/screen-small.sass */
+/* line 108, ../sass/screen-small.sass */
 #hear-me-logo img {
-  width: 193px;
+  max-width: 100%;
+  height: auto;
 }
 
-/* line 37, ../sass/screen-small.sass */
+/* line 112, ../sass/screen-small.sass */
 h3 {
   color: #b0b0b0;
 }
-/* line 40, ../sass/screen-small.sass */
+/* line 115, ../sass/screen-small.sass */
 h3 a {
   font-family: "arvil_sansregular";
   margin: 1% 0% 1% 0%;
   padding: 0%;
-  font-size: 120%;
+  font-size: 170%;
   color: #b0b0b0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 48, ../sass/screen-small.sass */
+/* line 123, ../sass/screen-small.sass */
 h3 a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
 /*---------------- tiles ---------------- */
-/* line 59, ../sass/screen-small.sass */
+/* line 134, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul {
   margin: 0;
   padding: 3%;
 }
-/* line 63, ../sass/screen-small.sass */
+/* line 138, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -79,13 +232,13 @@ h3 a:hover {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 67, ../sass/screen-small.sass */
+/* line 142, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row {
   margin-bottom: 10px;
   padding: 2px;
   cursor: pointer;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
   -moz-transition-property: opacity;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
@@ -100,50 +253,50 @@ h3 a:hover {
   transition-timing-function: ease-in-out;
   display: inline-block;
 }
-/* line 78, ../sass/screen-small.sass */
+/* line 153, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
   line-height: 0;
 }
-/* line 80, ../sass/screen-small.sass */
+/* line 155, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
   max-width: 100%;
   height: auto;
 }
-/* line 85, ../sass/screen-small.sass */
+/* line 160, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-view-node {
   display: none;
   visibilty: invisible;
 }
-/* line 89, ../sass/screen-small.sass */
+/* line 164, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title {
   position: relative;
 }
-/* line 91, ../sass/screen-small.sass */
+/* line 166, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span {
   top: 0;
   left: 0;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 97, ../sass/screen-small.sass */
+/* line 172, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span a {
   padding: 5px 10px 5px 10px;
   display: block;
   color: white;
   text-decoration: none;
 }
-/* line 105, ../sass/screen-small.sass */
+/* line 180, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .fade-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 108, ../sass/screen-small.sass */
+/* line 183, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row:hover {
   background: #aaaaaa;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 116, ../sass/screen-small.sass */
+/* line 191, ../sass/screen-small.sass */
 .node-type-personal-story .hear-me-back-button {
   width: 30px;
   height: 30px;
@@ -152,34 +305,39 @@ h3 a:hover {
   margin-top: 5px;
   cursor: pointer;
 }
-/* line 124, ../sass/screen-small.sass */
+/* line 199, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide {
   padding: 0.5%;
 }
-/* line 127, ../sass/screen-small.sass */
+/* line 201, ../sass/screen-small.sass */
+.node-type-personal-story .field-slideshow-slide img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 205, ../sass/screen-small.sass */
 .node-type-personal-story .activeSlide {
   background-color: #aaaaaa;
 }
-/* line 130, ../sass/screen-small.sass */
+/* line 208, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow {
   clear: both;
 }
-/* line 134, ../sass/screen-small.sass */
+/* line 212, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul {
   margin: 0;
   padding: 0;
 }
-/* line 137, ../sass/screen-small.sass */
+/* line 215, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li {
   padding: 0.5%;
   margin: 0.5%;
 }
-/* line 140, ../sass/screen-small.sass */
+/* line 218, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li a {
   line-height: 0;
   display: block;
 }
-/* line 145, ../sass/screen-small.sass */
+/* line 223, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-label {
   text-transform: uppercase;
   font-size: 70%;
@@ -187,15 +345,15 @@ h3 a:hover {
   color: #aaaaaa;
   float: left;
 }
-/* line 152, ../sass/screen-small.sass */
+/* line 230, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 155, ../sass/screen-small.sass */
+/* line 233, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline;
 }
-/* line 157, ../sass/screen-small.sass */
+/* line 235, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
   padding: 5px 5px 5px 30px;
@@ -205,28 +363,28 @@ h3 a:hover {
   text-transform: uppercase;
   background: url("images/tag-icon.png") left center no-repeat;
 }
-/* line 167, ../sass/screen-small.sass */
+/* line 245, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 173, ../sass/screen-small.sass */
+/* line 251, ../sass/screen-small.sass */
 footer {
   margin-top: 2%;
 }
-/* line 175, ../sass/screen-small.sass */
+/* line 253, ../sass/screen-small.sass */
 footer h2 {
   font-size: 130%;
   color: #aaaaaa;
 }
 
-/* line 181, ../sass/screen-small.sass */
+/* line 259, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 184, ../sass/screen-small.sass */
+/* line 262, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

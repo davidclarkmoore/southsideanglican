@@ -1,5 +1,5 @@
 /*---------------- Header ---------------- */
-/* line 6, ../sass/screen.sass */
+/* line 15, ../sass/screen.sass */
 #church-link {
   width: 30%;
   float: left;
@@ -8,7 +8,7 @@
   margin-top: 10%;
 }
 
-/* line 13, ../sass/screen.sass */
+/* line 22, ../sass/screen.sass */
 #share-link {
   width: 30%;
   float: right;
@@ -16,15 +16,15 @@
   text-align: right;
   margin-top: 10%;
 }
-/* line 19, ../sass/screen.sass */
+/* line 28, ../sass/screen.sass */
 #share-link a {
   margin: 0 2% 0 2%;
 }
 
-/* line 22, ../sass/screen.sass */
+/* line 31, ../sass/screen.sass */
 #hear-me-logo {
-  max-width: 193px;
-  height: 78px;
+  max-width: 25%;
+  height: auto;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -41,8 +41,17 @@
   cursor: pointer;
 }
 
+/* line 41, ../sass/screen.sass */
+h3 {
+  color: #b0b0b0;
+}
+/* line 44, ../sass/screen.sass */
+h3 a {
+  font-size: 120%;
+}
+
 /*---------------- tiles ---------------- */
-/* line 37, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 5;
   -webkit-column-count: 5;
@@ -53,9 +62,18 @@
   -o-column-gap: 10px;
   column-gap: 10px;
 }
+/* line 58, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
+  line-height: 0;
+}
+/* line 60, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*---------------- personal story page ---------------- */
-/* line 46, ../sass/screen.sass */
+/* line 69, ../sass/screen.sass */
 .node-type-personal-story .field-slideshow {
   float: left;
   margin-right: 0.5%;

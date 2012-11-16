@@ -1,4 +1,7 @@
+
 @import "compass/css3"
+@import "compass/reset"
+
 
 $darkgrey: #1A1A1A
 $grey: #AAA
@@ -7,6 +10,78 @@ $white: #fff
 $green: #68b418
 $black: #000
 
+/*---------------- Overall Styles ---------------- */
+
+html
+	+box-shadow(inset 0px 5px 15px $black)
+body 
+	background-color: $darkgrey
+	width: 95%
+	margin: 0 auto
+
+
+h1, h2, h3, h4, h5, p, a, label, span, em, li 
+	font-family: 'OpenSansRegular'
+	font-style: normal
+
+
+
+h1, h2 
+	font-size: 170%
+	margin: 1% 0% 1% 0%
+	padding: 0px
+	text-shadow: 0px 1px 0px $black
+	letter-spacing: -1px
+	line-height: 120%
+	color: $white
+
+
+
+p, a, label, em 
+	font-family: 'OpenSansRegular'
+	font-size: 100%
+	font-style: normal
+	line-height: 140%
+	color: $grey
+
+h1 span
+	color: $lightgrey
+	font-size: 50%
+	text-shadow: 0px 0px 0px $white
+	margin-left: 1%
+
+p 
+	line-height: 140%
+	margin: 3% 0% 2% 0%
+
+
+label 
+	margin: 0px
+	padding: 0px
+
+
+embed, iframe 
+	@include box-shadow(5px)
+
+img
+	margin: 0
+	padding: 0
+	line-height: 0
+
+a
+	text-decoration: none
+
+
+.drupal_messages 
+	clear:both
+
+
+
+#socialwrapper 
+	.socialbutton 
+		height: 30px
+		width: 60px
+		float:left
 /*---------------- Header ---------------- */
 
 #church-link
@@ -22,17 +97,17 @@ $black: #000
 		margin: 0 1% 0 1%
 
 #hear-me-logo
-	max-width: 60%
-	height: 78px
+	max-width: 95%
 	+border-radius(5px)
 	margin-top: -5px
 	+box-shadow(0px 0px 10px $black)
-	padding: 15% 1% 1% 1%
-	margin: -15% auto 3% auto
+	padding: 20% 1% 1% 1%
+	margin: -20% auto 3% auto
 	cursor: pointer
 	text-align: center
 	img
-		width: 193px
+		max-width: 100%
+		height: auto
 
 h3
 	color: $lightgrey
@@ -41,7 +116,7 @@ h3
 		font-family: 'arvil_sansregular'
 		margin: 1% 0% 1% 0%
 		padding: 0%
-		font-size: 120%
+		font-size: 170%
 		color: $lightgrey
 		+opacity(.8)
 
@@ -68,7 +143,7 @@ h3
 		margin-bottom: 10px
 		padding: 2px
 		cursor: pointer
-		+opacity(0)
+		+opacity(1)
 		+transition-property(opacity)
 		+transition-duration(1s)
 		+transition-timing-function(ease-in-out)
@@ -123,6 +198,9 @@ h3
 
 	.field-slideshow-slide
 		padding: .5%
+		img
+			max-width: 100%
+			height: auto
 
 	.activeSlide
 		background-color: $grey

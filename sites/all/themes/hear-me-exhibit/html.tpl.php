@@ -7,13 +7,24 @@
   <?php print $scripts; ?>
 
 <style type="text/css" media="
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (   min--moz-device-pixel-ratio: 1.5),
-only screen and (     -o-min-device-pixel-ratio: 3/2),
-only screen and (        min-device-pixel-ratio: 1.5)">
+screen and (min-width: 300px),
+screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 300px),
+screen and (   min--moz-device-pixel-ratio: 1.5) and (min-width: 300px),
+screen and (     -o-min-device-pixel-ratio: 3/2) and (min-width: 300px),
+screen and (        min-device-pixel-ratio: 1.5) and (min-width: 300px)">
 
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/overall.css');
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+
+</style>
+
+<style type="text/css" media="
+screen and (min-width: 769px),
+screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 769px),
+screen and (   min--moz-device-pixel-ratio: 1.5) and (min-width: 769px),
+screen and (     -o-min-device-pixel-ratio: 3/2) and (min-width: 769px),
+screen and (        min-device-pixel-ratio: 1.5) and (min-width: 769px)">
+
+  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
 </style>
 

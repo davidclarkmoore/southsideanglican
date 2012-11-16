@@ -13,13 +13,11 @@ regions[footer_firstcolumn] = Footer first column
 regions[footer_secondcolumn] = Footer second column
 regions[footer_thirdcolumn] = Footer third column
 
-
 stylesheets[all][] = css/stylesheets/open-sans-fontfacekit/stylesheet.css
 stylesheets[all][] = css/stylesheets/arvilwebfont/arvil.css
 
 scripts[] = scripts/clear-text.js
 scripts[] = scripts/custom.js
-scripts[] = scripts/css3-multi-column.js
 
 
 

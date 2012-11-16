@@ -7,7 +7,6 @@
   <?php print $scripts; ?>
 
 <style type="text/css" media="
-only screen and (min-width: 320px),
 only screen and (-webkit-min-device-pixel-ratio: 1.5)      and (min-width: 320px),
 only screen and (   min--moz-device-pixel-ratio: 1.5)      and (min-width: 320px),
 only screen and (     -o-min-device-pixel-ratio: 3/2)    and (min-width: 320px),

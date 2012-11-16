@@ -16,8 +16,8 @@ only screen and (                min-resolution: 192dpi) and (min-width: 320px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
 ">
 
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/overall.css');
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/overall.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
 
 
 </style>
@@ -31,9 +31,9 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
 only screen and (                min-resolution: 192dpi) and (min-width: 700px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 700px)">
 
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/overall.css');
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/overall.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
 </style>
 

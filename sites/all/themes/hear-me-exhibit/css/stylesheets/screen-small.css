@@ -1,23 +1,23 @@
 /*---------------- Header ---------------- */
-/* line 13, ../sass/screen-small.sass */
+/* line 12, ../sass/screen-small.sass */
 #church-link {
   width: 100%;
   text-align: center;
   margin: 1% 0 0.5% 0;
 }
 
-/* line 18, ../sass/screen-small.sass */
+/* line 17, ../sass/screen-small.sass */
 #share-link {
   width: 100%;
   text-align: center;
   margin: 0.5% 0 2% 0;
 }
-/* line 22, ../sass/screen-small.sass */
+/* line 21, ../sass/screen-small.sass */
 #share-link a {
   margin: 0 1% 0 1%;
 }
 
-/* line 25, ../sass/screen-small.sass */
+/* line 24, ../sass/screen-small.sass */
 #hear-me-logo {
   max-width: 60%;
   height: 78px;
@@ -37,16 +37,16 @@
   cursor: pointer;
   text-align: center;
 }
-/* line 35, ../sass/screen-small.sass */
+/* line 34, ../sass/screen-small.sass */
 #hear-me-logo img {
   width: 193px;
 }
 
-/* line 38, ../sass/screen-small.sass */
+/* line 37, ../sass/screen-small.sass */
 h3 {
   color: #b0b0b0;
 }
-/* line 41, ../sass/screen-small.sass */
+/* line 40, ../sass/screen-small.sass */
 h3 a {
   font-family: "arvil_sansregular";
   margin: 1% 0% 1% 0%;
@@ -56,19 +56,19 @@ h3 a {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 49, ../sass/screen-small.sass */
+/* line 48, ../sass/screen-small.sass */
 h3 a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
 /*---------------- tiles ---------------- */
-/* line 60, ../sass/screen-small.sass */
+/* line 59, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul {
   margin: 0;
   padding: 3%;
 }
-/* line 64, ../sass/screen-small.sass */
+/* line 63, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -79,7 +79,7 @@ h3 a:hover {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 68, ../sass/screen-small.sass */
+/* line 67, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row {
   margin-bottom: 10px;
   padding: 2px;
@@ -100,50 +100,50 @@ h3 a:hover {
   transition-timing-function: ease-in-out;
   display: inline-block;
 }
-/* line 79, ../sass/screen-small.sass */
+/* line 78, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
   line-height: 0;
 }
-/* line 81, ../sass/screen-small.sass */
+/* line 80, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
   max-width: 100%;
   height: auto;
 }
-/* line 86, ../sass/screen-small.sass */
+/* line 85, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-view-node {
   display: none;
   visibilty: invisible;
 }
-/* line 90, ../sass/screen-small.sass */
+/* line 89, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title {
   position: relative;
 }
-/* line 92, ../sass/screen-small.sass */
+/* line 91, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span {
   top: 0;
   left: 0;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 98, ../sass/screen-small.sass */
+/* line 97, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span a {
   padding: 5px 10px 5px 10px;
   display: block;
   color: white;
   text-decoration: none;
 }
-/* line 106, ../sass/screen-small.sass */
+/* line 105, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .fade-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 109, ../sass/screen-small.sass */
+/* line 108, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row:hover {
   background: #aaaaaa;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 117, ../sass/screen-small.sass */
+/* line 116, ../sass/screen-small.sass */
 .node-type-personal-story .hear-me-back-button {
   width: 30px;
   height: 30px;
@@ -152,34 +152,34 @@ h3 a:hover {
   margin-top: 5px;
   cursor: pointer;
 }
-/* line 125, ../sass/screen-small.sass */
+/* line 124, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide {
   padding: 0.5%;
 }
-/* line 128, ../sass/screen-small.sass */
+/* line 127, ../sass/screen-small.sass */
 .node-type-personal-story .activeSlide {
   background-color: #aaaaaa;
 }
-/* line 131, ../sass/screen-small.sass */
+/* line 130, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow {
   clear: both;
 }
-/* line 135, ../sass/screen-small.sass */
+/* line 134, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul {
   margin: 0;
   padding: 0;
 }
-/* line 138, ../sass/screen-small.sass */
+/* line 137, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li {
   padding: 0.5%;
   margin: 0.5%;
 }
-/* line 141, ../sass/screen-small.sass */
+/* line 140, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li a {
   line-height: 0;
   display: block;
 }
-/* line 146, ../sass/screen-small.sass */
+/* line 145, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-label {
   text-transform: uppercase;
   font-size: 70%;
@@ -187,15 +187,15 @@ h3 a:hover {
   color: #aaaaaa;
   float: left;
 }
-/* line 153, ../sass/screen-small.sass */
+/* line 152, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 156, ../sass/screen-small.sass */
+/* line 155, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline;
 }
-/* line 158, ../sass/screen-small.sass */
+/* line 157, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
   padding: 5px 5px 5px 30px;
@@ -205,28 +205,28 @@ h3 a:hover {
   text-transform: uppercase;
   background: url("images/tag-icon.png") left center no-repeat;
 }
-/* line 168, ../sass/screen-small.sass */
+/* line 167, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 174, ../sass/screen-small.sass */
+/* line 173, ../sass/screen-small.sass */
 footer {
   margin-top: 2%;
 }
-/* line 176, ../sass/screen-small.sass */
+/* line 175, ../sass/screen-small.sass */
 footer h2 {
   font-size: 130%;
   color: #aaaaaa;
 }
 
-/* line 182, ../sass/screen-small.sass */
+/* line 181, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 185, ../sass/screen-small.sass */
+/* line 184, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

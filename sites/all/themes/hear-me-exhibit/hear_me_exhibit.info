@@ -14,16 +14,12 @@ regions[footer_secondcolumn] = Footer second column
 regions[footer_thirdcolumn] = Footer third column
 
 
-stylesheets[all][] = css/stylesheets/overall.css
-stylesheets[screen, screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)][] = css/stylesheets/screen-small.css
-
-stylesheets[screen and (min-width: 700px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)][] = css/stylesheets/screen.css
-
 stylesheets[all][] = css/stylesheets/open-sans-fontfacekit/stylesheet.css
 stylesheets[all][] = css/stylesheets/arvilwebfont/arvil.css
 
 scripts[] = scripts/clear-text.js
 scripts[] = scripts/custom.js
+scripts[] = scripts/css3-multi-column.js
 
 
 

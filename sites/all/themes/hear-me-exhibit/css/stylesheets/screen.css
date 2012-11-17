@@ -119,12 +119,3 @@ h3 {
   display: inline;
   margin: 0 0.5% 0 0.5%;
 }
-/* line 113, ../sass/screen.sass */
-.node-type-personal-story .field-name-field-tags .field-items .field-item a {
-  font-size: 80%;
-  padding: 5px 5px 5px 30px;
-  color: #aaaaaa;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: url("images/tag-icon.png") left center no-repeat;
-}

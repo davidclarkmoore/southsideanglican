@@ -64,8 +64,20 @@ h3 {
   color: #b0b0b0;
 }
 
+/* line 60, ../sass/screen.sass */
+#block-block-10 .content {
+  text-align: center;
+}
+/* line 63, ../sass/screen.sass */
+#block-block-10 p, #block-block-10 a {
+  color: #aaaaaa;
+  font-family: "arvil_sansregular";
+  letter-spacing: 1.6px;
+  font-size: 120%;
+}
+
 /*---------------- tiles ---------------- */
-/* line 66, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 5;
   -webkit-column-count: 5;
@@ -76,38 +88,38 @@ h3 {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 71, ../sass/screen.sass */
+/* line 80, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row {
   position: relative;
 }
-/* line 76, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row span a {
   font-size: 100%;
 }
-/* line 81, ../sass/screen.sass */
-.view-hear-me-your-story-through-tattoos- .item-list ul {
-  margin: 0;
+/* line 91, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .item-list ul.pager {
+  margin: 0 0 0 0;
   padding: 3%;
   font-size: 100%;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 92, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 .node-type-personal-story .field-slideshow {
   float: left;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-/* line 97, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 100, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline-block;
   margin: 0 0.5% 0 0.5%;
 }
-/* line 103, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
   padding: 5px 5px 5px 30px;
@@ -115,5 +127,4 @@ h3 {
   text-decoration: none;
   text-transform: uppercase;
   background: url("images/tag-icon.png") left center no-repeat;
-  display: block;
 }

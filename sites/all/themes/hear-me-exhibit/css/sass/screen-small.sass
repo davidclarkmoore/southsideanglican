@@ -56,7 +56,7 @@ h1 span
 
 p 
 	line-height: 140%
-	margin: 1% 0% 1% 0%
+	margin: 2% 0% 2% 0%
 
 
 label 
@@ -66,6 +66,8 @@ label
 
 embed, iframe 
 	@include box-shadow(5px)
+	max-width: 100%
+	height: auto
 
 img
 	margin: 0
@@ -75,6 +77,8 @@ img
 a
 	text-decoration: none
 	color: $lightgrey
+
+
 
 
 .drupal_messages 
@@ -130,7 +134,19 @@ h3
 	a:hover
 		+opacity(1)
 		
+#block-block-10
+	.content
+		text-align: center
 
+	p, a
+		color: $grey
+		font-family: 'arvil_sansregular'
+		letter-spacing: 1.6px
+	a
+		text-decoration: underline
+
+	a:hover
+		font-family: 'arvil_sansbold'
 
 /*---------------- tiles ---------------- */
 
@@ -277,6 +293,7 @@ h3
 /*---------------- footer ---------------- */
 
 footer
+	margin-bottom: 5%
 	
 	a:hover
 		border-bottom: 1px dotted $lightgrey

@@ -85,7 +85,13 @@ h1, h2, h3, h4, h5, p, a, label, span, em, li {
   font-style: normal;
 }
 
-/* line 29, ../sass/screen-small.sass */
+/* line 27, ../sass/screen-small.sass */
+strong {
+  font-family: "OpenSansBold";
+  font-style: normal;
+}
+
+/* line 32, ../sass/screen-small.sass */
 h1, h2 {
   font-size: 170%;
   margin: 5% 0% 5% 0%;
@@ -96,7 +102,7 @@ h1, h2 {
   color: white;
 }
 
-/* line 40, ../sass/screen-small.sass */
+/* line 43, ../sass/screen-small.sass */
 p, a, label, em {
   font-family: "OpenSansRegular";
   font-size: 100%;
@@ -105,7 +111,7 @@ p, a, label, em {
   color: #aaaaaa;
 }
 
-/* line 47, ../sass/screen-small.sass */
+/* line 50, ../sass/screen-small.sass */
 h1 span {
   color: #b0b0b0;
   font-size: 50%;
@@ -113,19 +119,19 @@ h1 span {
   margin-left: 1%;
 }
 
-/* line 53, ../sass/screen-small.sass */
+/* line 56, ../sass/screen-small.sass */
 p {
   line-height: 140%;
-  margin: 5% 0% 2% 0%;
+  margin: 1% 0% 1% 0%;
 }
 
-/* line 58, ../sass/screen-small.sass */
+/* line 61, ../sass/screen-small.sass */
 label {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 63, ../sass/screen-small.sass */
+/* line 66, ../sass/screen-small.sass */
 embed, iframe {
   -moz-box-shadow: 5px;
   -webkit-box-shadow: 5px;
@@ -133,42 +139,42 @@ embed, iframe {
   box-shadow: 5px;
 }
 
-/* line 66, ../sass/screen-small.sass */
+/* line 69, ../sass/screen-small.sass */
 img {
   margin: 0;
   padding: 0;
   line-height: 0;
 }
 
-/* line 71, ../sass/screen-small.sass */
+/* line 74, ../sass/screen-small.sass */
 a {
   text-decoration: none;
 }
 
-/* line 81, ../sass/screen-small.sass */
+/* line 84, ../sass/screen-small.sass */
 #socialwrapper .socialbutton {
   height: 30px;
   width: 60px;
 }
 
 /*---------------- Header ---------------- */
-/* line 87, ../sass/screen-small.sass */
+/* line 90, ../sass/screen-small.sass */
 #church-link {
   display: none;
 }
 
-/* line 90, ../sass/screen-small.sass */
+/* line 93, ../sass/screen-small.sass */
 #share-link {
   width: 100%;
   text-align: center;
   margin: 0% 0 2% 0;
 }
-/* line 94, ../sass/screen-small.sass */
+/* line 97, ../sass/screen-small.sass */
 #share-link a {
   padding: 0 3% 0 3%;
 }
 
-/* line 97, ../sass/screen-small.sass */
+/* line 100, ../sass/screen-small.sass */
 #hear-me-logo {
   max-width: 75%;
   -moz-border-radius: 5px;
@@ -183,27 +189,27 @@ a {
   -o-box-shadow: 0px 0px 10px black;
   box-shadow: 0px 0px 10px black;
   padding: 50% 5% 1% 5%;
-  margin: -50% auto 6% auto;
+  margin: -50% auto 3% auto;
   cursor: pointer;
   text-align: center;
 }
-/* line 106, ../sass/screen-small.sass */
+/* line 109, ../sass/screen-small.sass */
 #hear-me-logo img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 110, ../sass/screen-small.sass */
+/* line 113, ../sass/screen-small.sass */
 #hear-me-logo:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 
-/* line 114, ../sass/screen-small.sass */
+/* line 117, ../sass/screen-small.sass */
 h3 {
   color: #b0b0b0;
 }
-/* line 117, ../sass/screen-small.sass */
+/* line 120, ../sass/screen-small.sass */
 h3 a {
   font-family: "arvil_sansregular";
   margin: 1% 0% 1% 0%;
@@ -213,25 +219,25 @@ h3 a {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 125, ../sass/screen-small.sass */
+/* line 128, ../sass/screen-small.sass */
 h3 a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
 /*---------------- tiles ---------------- */
-/* line 136, ../sass/screen-small.sass */
+/* line 139, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager {
   margin: 0;
   padding: 1%;
   font-size: 120%;
 }
-/* line 141, ../sass/screen-small.sass */
+/* line 144, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager li {
   padding: 0;
   margin: 0 1% 0 1%;
 }
-/* line 145, ../sass/screen-small.sass */
+/* line 148, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager li.pager-current {
   background: #b0b0b0;
   -moz-border-radius: 5px;
@@ -242,7 +248,7 @@ h3 a:hover {
   border-radius: 5px;
   padding: 2px 10px 2px 10px;
 }
-/* line 150, ../sass/screen-small.sass */
+/* line 153, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -256,7 +262,7 @@ h3 a:hover {
   -moz-column-fill: auto;
   column-fill: auto;
 }
-/* line 157, ../sass/screen-small.sass */
+/* line 160, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row {
   margin-top: 8px;
   padding: 2px;
@@ -280,32 +286,32 @@ h3 a:hover {
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
 }
-/* line 171, ../sass/screen-small.sass */
+/* line 174, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
   line-height: 0;
 }
-/* line 173, ../sass/screen-small.sass */
+/* line 176, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
   max-width: 100%;
   height: auto;
 }
-/* line 178, ../sass/screen-small.sass */
+/* line 181, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-view-node {
   display: none;
   visibilty: invisible;
 }
-/* line 182, ../sass/screen-small.sass */
+/* line 185, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title {
   position: relative;
 }
-/* line 184, ../sass/screen-small.sass */
+/* line 187, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span {
   top: 0;
   left: 0;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 190, ../sass/screen-small.sass */
+/* line 193, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span a {
   padding: 5px 10px 5px 10px;
   display: block;
@@ -313,18 +319,18 @@ h3 a:hover {
   text-decoration: none;
   font-size: 120%;
 }
-/* line 200, ../sass/screen-small.sass */
+/* line 203, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .fade-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 203, ../sass/screen-small.sass */
+/* line 206, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row:hover {
   background: #aaaaaa;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 211, ../sass/screen-small.sass */
+/* line 214, ../sass/screen-small.sass */
 .node-type-personal-story .hear-me-back-button {
   width: 30px;
   height: 30px;
@@ -333,39 +339,39 @@ h3 a:hover {
   margin-top: 5px;
   cursor: pointer;
 }
-/* line 219, ../sass/screen-small.sass */
+/* line 222, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide {
   padding: 0.5%;
 }
-/* line 221, ../sass/screen-small.sass */
+/* line 224, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide img {
   max-width: 100%;
   height: auto;
 }
-/* line 225, ../sass/screen-small.sass */
+/* line 228, ../sass/screen-small.sass */
 .node-type-personal-story .activeSlide {
   background-color: #aaaaaa;
 }
-/* line 228, ../sass/screen-small.sass */
+/* line 231, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow {
   clear: both;
 }
-/* line 232, ../sass/screen-small.sass */
+/* line 235, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul {
   margin: 0;
   padding: 0;
 }
-/* line 235, ../sass/screen-small.sass */
+/* line 238, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li {
   padding: 0.5%;
   margin: 0.5%;
 }
-/* line 238, ../sass/screen-small.sass */
+/* line 241, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li a {
   line-height: 0;
   display: block;
 }
-/* line 243, ../sass/screen-small.sass */
+/* line 246, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-label {
   text-transform: uppercase;
   font-size: 70%;
@@ -373,16 +379,16 @@ h3 a:hover {
   color: #aaaaaa;
   float: left;
 }
-/* line 250, ../sass/screen-small.sass */
+/* line 253, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 8% 0 8% 0;
 }
-/* line 253, ../sass/screen-small.sass */
+/* line 256, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline-block;
   margin: 1% 1% 1% 1%;
 }
-/* line 257, ../sass/screen-small.sass */
+/* line 260, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
   padding: 1px 5px 1px 5px;
@@ -399,21 +405,21 @@ h3 a:hover {
   border-radius: 5px;
   display: block;
 }
-/* line 268, ../sass/screen-small.sass */
+/* line 271, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 274, ../sass/screen-small.sass */
+/* line 277, ../sass/screen-small.sass */
 footer {
   margin-top: 4%;
 }
-/* line 276, ../sass/screen-small.sass */
+/* line 279, ../sass/screen-small.sass */
 footer a:hover {
   border-bottom: 1px dotted #b0b0b0;
 }
-/* line 280, ../sass/screen-small.sass */
+/* line 283, ../sass/screen-small.sass */
 footer h2 {
   padding: 0;
   margin: 0;
@@ -421,12 +427,12 @@ footer h2 {
   color: #aaaaaa;
 }
 
-/* line 288, ../sass/screen-small.sass */
+/* line 291, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 291, ../sass/screen-small.sass */
+/* line 294, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

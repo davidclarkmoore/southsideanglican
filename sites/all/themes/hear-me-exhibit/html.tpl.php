@@ -17,8 +17,7 @@ screen and (        min-device-pixel-ratio: 1.5) and (min-width: 300px)">
 
 </style>
 
-<style type="text/css" media="
-screen and (min-width: 769px),
+/*<style type="text/css" media="
 screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 769px),
 screen and (   min--moz-device-pixel-ratio: 1.5) and (min-width: 769px),
 screen and (     -o-min-device-pixel-ratio: 3/2) and (min-width: 769px),
@@ -26,7 +25,7 @@ screen and (        min-device-pixel-ratio: 1.5) and (min-width: 769px)">
 
   @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
-</style>
+</style>*/
 
 
 </head>

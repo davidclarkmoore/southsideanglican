@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, p, a, label, span, em, li
 
 h1, h2 
 	font-size: 170%
-	margin: 1% 0% 1% 0%
+	margin: 5% 0% 5% 0%
 	padding: 0px
 	text-shadow: 0px 1px 0px $black
 	letter-spacing: -1px
@@ -92,20 +92,24 @@ a
 	text-align: center
 	margin: .5% 0 2% 0
 	a
-		padding: 0 2% 0 2%
+		padding: 0 3% 0 3%
 
 #hear-me-logo
-	max-width: 95%
+	max-width: 75%
 	+border-radius(5px)
 	margin-top: -5px
 	+box-shadow(0px 0px 10px $black)
-	padding: 50% 1% 1% 1%
-	margin: -50% auto 3% auto
+	padding: 50% 5% 1% 5%
+	margin: -50% auto 6% auto
 	cursor: pointer
 	text-align: center
 	img
 		max-width: 100%
 		height: auto
+
+#hear-me-logo:hover
+	+opacity(.8)
+
 
 h3
 	color: $lightgrey
@@ -129,11 +133,19 @@ h3
 .view-hear-me-your-story-through-tattoos-
 
 	.item-list
-		ul
+		ul.pager
 			margin: 0
 			padding: 1%
 			font:
 				size: 120%
+			li
+				padding: 0
+				margin: 0 .25% 0 .25%
+
+			li.pager-current
+				background: $lightgrey
+				+border-radius(5px)
+				padding: 2px 10px 2px 10px
 
 	.view-content
 		+column-count(3)
@@ -143,7 +155,7 @@ h3
 		column-fill: auto
 
 	.views-row
-		margin-bottom: 10px
+		margin-top: 8px
 		padding: 2px
 		cursor: pointer
 		+opacity(1)
@@ -236,17 +248,20 @@ h3
 			color: $grey
 			float: left
 	.field-name-field-tags
-		margin: 4% 0 4% 0
+		margin: 8% 0 8% 0
 		.field-items
 			.field-item
 				float: left
 				a
 					font-size: 80%
-					padding: 5px 5px 5px 30px
-					margin: 0 .5% 0 .5%
-					color: $grey
+					padding: 1%
+					margin: 1%
+					color: $black
+					background: $lightgrey
 					text-decoration: none
 					text-transform: uppercase
+					+border-radius(5px)
+					display: inline-block
 
 			a:hover
 				border-bottom: 1px dotted $grey
@@ -255,7 +270,11 @@ h3
 /*---------------- footer ---------------- */
 
 footer
-	margin-top: 2%
+	
+	a:hover
+		border-bottom: 1px dotted $lightgrey
+
+	margin-top: 4%
 	h2
 		font:
 			size: 130%

@@ -1,7 +1,4 @@
 <header>
-<div id="logo">
-	<a href="/"><img src="<?php print render($logo); ?>"/></a>
-</div>
 
 <?php if ($page['header']): ?>    
 	<?php print render($page['header']); ?>

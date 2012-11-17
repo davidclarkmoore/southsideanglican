@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head profile="<?php print $grddl_profile; ?>">
-  <meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
@@ -13,11 +13,11 @@
 
 </style>
 
-/*<style type="text/css" media="screen and (min-width: 700px)">
+<style type="text/css" media="screen and (min-width: 700px)">
 
   @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
-</style>*/
+</style>
 
 
 </head>

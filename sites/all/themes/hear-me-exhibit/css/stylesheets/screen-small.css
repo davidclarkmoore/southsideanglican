@@ -116,7 +116,7 @@ h1 span {
 /* line 53, ../sass/screen-small.sass */
 p {
   line-height: 140%;
-  margin: 3% 0% 2% 0%;
+  margin: 5% 0% 2% 0%;
 }
 
 /* line 58, ../sass/screen-small.sass */
@@ -229,7 +229,7 @@ h3 a:hover {
 /* line 141, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager li {
   padding: 0;
-  margin: 0 0.25% 0 0.25%;
+  margin: 0 1% 0 1%;
 }
 /* line 145, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager li.pager-current {
@@ -379,12 +379,13 @@ h3 a:hover {
 }
 /* line 253, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
-  float: left;
+  display: inline-block;
+  margin: 0% 1% 0% 1%;
 }
-/* line 255, ../sass/screen-small.sass */
+/* line 257, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
-  padding: 1%;
+  padding: 1px 5px 1px 5px;
   margin: 1%;
   color: black;
   background: #b0b0b0;
@@ -396,34 +397,36 @@ h3 a:hover {
   -ms-border-radius: 5px;
   -khtml-border-radius: 5px;
   border-radius: 5px;
-  display: inline-block;
+  display: block;
 }
-/* line 266, ../sass/screen-small.sass */
+/* line 268, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 272, ../sass/screen-small.sass */
+/* line 274, ../sass/screen-small.sass */
 footer {
   margin-top: 4%;
 }
-/* line 274, ../sass/screen-small.sass */
+/* line 276, ../sass/screen-small.sass */
 footer a:hover {
   border-bottom: 1px dotted #b0b0b0;
 }
-/* line 278, ../sass/screen-small.sass */
+/* line 280, ../sass/screen-small.sass */
 footer h2 {
+  padding: 0;
+  margin: 0;
   font-size: 130%;
   color: #aaaaaa;
 }
 
-/* line 284, ../sass/screen-small.sass */
+/* line 288, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 287, ../sass/screen-small.sass */
+/* line 291, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

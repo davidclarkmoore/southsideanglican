@@ -52,7 +52,7 @@ h1 span
 
 p 
 	line-height: 140%
-	margin: 3% 0% 2% 0%
+	margin: 5% 0% 2% 0%
 
 
 label 
@@ -140,7 +140,7 @@ h3
 				size: 120%
 			li
 				padding: 0
-				margin: 0 .25% 0 .25%
+				margin: 0 1% 0 1%
 
 			li.pager-current
 				background: $lightgrey
@@ -251,17 +251,19 @@ h3
 		margin: 8% 0 8% 0
 		.field-items
 			.field-item
-				float: left
+				display: inline-block
+				margin: 0% 1% 0% 1%
+
 				a
 					font-size: 80%
-					padding: 1%
+					padding: 1px 5px 1px 5px
 					margin: 1%
 					color: $black
 					background: $lightgrey
 					text-decoration: none
 					text-transform: uppercase
 					+border-radius(5px)
-					display: inline-block
+					display: block
 
 			a:hover
 				border-bottom: 1px dotted $grey
@@ -276,6 +278,8 @@ footer
 
 	margin-top: 4%
 	h2
+		padding: 0
+		margin: 0
 		font:
 			size: 130%
 		color: $grey

@@ -13,7 +13,7 @@ screen and (   min--moz-device-pixel-ratio: 1.5) and (min-width: 300px),
 screen and (     -o-min-device-pixel-ratio: 3/2) and (min-width: 300px),
 screen and (        min-device-pixel-ratio: 1.5) and (min-width: 300px)">
 
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
 
 </style>
 
@@ -24,7 +24,7 @@ screen and (   min--moz-device-pixel-ratio: 1.5) and (min-width: 769px),
 screen and (     -o-min-device-pixel-ratio: 3/2) and (min-width: 769px),
 screen and (        min-device-pixel-ratio: 1.5) and (min-width: 769px)">
 
-  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
+  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
 </style>
 

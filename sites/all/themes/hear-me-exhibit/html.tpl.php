@@ -10,14 +10,6 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
 
-  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/iealert.min.js"></script> 
-<script>
-
-  $(document).ready(function() {
-    $("body").iealert();
-  });
-  
-</script>
 
 <style type="text/css" media="screen and (min-width: 300px)">
 
@@ -43,6 +35,7 @@
 
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
+<!--[if lte IE 8]><script src="/sites/all/themes/hear-me-exhibit/scripts/ie6/warning.js"></script><script>window.onload=function(){e("/sites/all/themes/hear-me-exhibit/scripts/ie6/")}</script><![endif]-->
 
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>

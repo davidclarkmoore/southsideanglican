@@ -14,8 +14,9 @@
 
 			document.location = '/hear-me-exhibit';});
 
-		// $("div.view-hear-me-your-story-through-tattoos- div.view-content .views-row").addClass('fade-in');
+		$("div.view-hear-me-your-story-through-tattoos- div.view-content .views-row").addClass('fade-in');
 
+		$("body").iealert();
 	});
 
 })(jQuery);

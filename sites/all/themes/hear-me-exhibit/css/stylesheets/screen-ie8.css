@@ -1,21 +1,28 @@
-/* line 3, ../sass/screen-ie8.sass */
+/* line 4, ../sass/screen-ie8.sass */
+html #hear-me-logo {
+  max-width: 25%;
+  width: 25%;
+}
+
+/* line 9, ../sass/screen-ie8.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   display: inline-block;
 }
-/* line 6, ../sass/screen-ie8.sass */
+/* line 12, ../sass/screen-ie8.sass */
 .view-hear-me-your-story-through-tattoos- .views-row {
   display: block;
-  width: 150px;
+  width: 250px;
   float: left;
   height: 100%;
 }
-/* line 13, ../sass/screen-ie8.sass */
+/* line 19, ../sass/screen-ie8.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
   line-height: 0;
   width: 100%;
 }
-/* line 16, ../sass/screen-ie8.sass */
+/* line 22, ../sass/screen-ie8.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
   max-width: 100%;
   height: auto;
+  width: auto;
 }

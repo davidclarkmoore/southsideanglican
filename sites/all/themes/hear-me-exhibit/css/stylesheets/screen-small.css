@@ -161,7 +161,7 @@ a {
 #share-link {
   width: 100%;
   text-align: center;
-  margin: 0.5% 0 2% 0;
+  margin: 0% 0 2% 0;
 }
 /* line 94, ../sass/screen-small.sass */
 #share-link a {
@@ -380,7 +380,7 @@ h3 a:hover {
 /* line 253, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline-block;
-  margin: 0% 1% 0% 1%;
+  margin: 1% 1% 1% 1%;
 }
 /* line 257, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {

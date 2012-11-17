@@ -357,7 +357,7 @@ h3 a:hover {
 }
 /* line 241, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
-  display: inline;
+  float: left;
 }
 /* line 243, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
@@ -367,30 +367,29 @@ h3 a:hover {
   color: #aaaaaa;
   text-decoration: none;
   text-transform: uppercase;
-  background: url("images/tag-icon.png") left center no-repeat;
 }
-/* line 253, ../sass/screen-small.sass */
+/* line 251, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 259, ../sass/screen-small.sass */
+/* line 257, ../sass/screen-small.sass */
 footer {
   margin-top: 2%;
 }
-/* line 261, ../sass/screen-small.sass */
+/* line 259, ../sass/screen-small.sass */
 footer h2 {
   font-size: 130%;
   color: #aaaaaa;
 }
 
-/* line 267, ../sass/screen-small.sass */
+/* line 265, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 270, ../sass/screen-small.sass */
+/* line 268, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

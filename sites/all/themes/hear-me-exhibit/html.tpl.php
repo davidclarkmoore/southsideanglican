@@ -16,11 +16,17 @@
 
 </style>
 
-<style type="text/css" media="screen and (min-width: 700px)">
+<style type="text/css" media="screen and (min-width: 769px)">
 
   @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
-</style>*/
+</style>
+
+<<!--[if lte IE 9]>
+
+  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/css3-multi-column.js"></script>
+
+<![endif]-->
 
 
 </head>
@@ -32,5 +38,10 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+
+  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/iealert.min.js"></script>
+  <script type="text/javascript"> 
+      $("body").iealert();
+  </script>
 </body>
 </html>

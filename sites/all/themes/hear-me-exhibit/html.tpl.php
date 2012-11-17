@@ -5,10 +5,30 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
+<!--[if lt IE 9]>
+
+  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/iealert.min.js"></script> 
+
+  <![endif]-->
+
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+
+<!--[if lt IE 9]>
+
+  <script type="text/javascript"> 
+        $(document).ready(function(){
+
+          $("body").iealert();
+
+        });
+        
+  </script>
+
+<![endif]-->
+
 
 <style type="text/css" media="screen and (min-width: 300px)">
 
@@ -43,14 +63,10 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
 
-<!--[if lt IE 9]>
 
-  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/iealert.min.js"></script> 
-  <script type="text/javascript"> 
-      $("body").iealert();
-  </script>
 
-<![endif]-->
+
+
 
 </body>
 </html>

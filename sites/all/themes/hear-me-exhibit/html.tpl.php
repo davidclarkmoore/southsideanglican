@@ -23,7 +23,7 @@
 
 </style>
 
-<!--[if lt IE 9]>
+<!--[if lte IE 9]>
 
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css" />
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css" />
@@ -35,7 +35,7 @@
 
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
-<!--[if lte IE 8]><script src="/sites/all/themes/hear-me-exhibit/scripts/ie6/warning.js"></script><script>window.onload=function(){e("/sites/all/themes/hear-me-exhibit/scripts/ie6/")}</script><![endif]-->
+<!--[if lt IE 8]><script src="/sites/all/themes/hear-me-exhibit/scripts/ie6/warning.js"></script><script>window.onload=function(){e("/sites/all/themes/hear-me-exhibit/scripts/ie6/")}</script><![endif]-->
 
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>

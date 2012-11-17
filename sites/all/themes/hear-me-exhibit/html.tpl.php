@@ -24,8 +24,8 @@
 
 <!--[if IE]>
 
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css" />
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css" />
 
   <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/css3-multi-column.js"></script>
 

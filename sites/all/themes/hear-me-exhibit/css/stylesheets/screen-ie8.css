@@ -1,0 +1,18 @@
+/* line 3, ../sass/screen-ie8.sass */
+.view-hear-me-your-story-through-tattoos- .view-content {
+  display: inline-block;
+}
+/* line 5, ../sass/screen-ie8.sass */
+.view-hear-me-your-story-through-tattoos- .views-row {
+  display: block;
+}
+/* line 9, ../sass/screen-ie8.sass */
+.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
+  line-height: 0;
+  width: 100%;
+}
+/* line 12, ../sass/screen-ie8.sass */
+.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
+  max-width: 100%;
+  height: auto;
+}

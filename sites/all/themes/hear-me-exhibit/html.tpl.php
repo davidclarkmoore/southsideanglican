@@ -7,13 +7,13 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
 
-<style type="text/css" media="screen and (min-width: 300px), screen and (min-device-width: 300px)">
+<style type="text/css" media="screen and (min-width: 300px)">
 
   @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
 
 </style>
 
-<style type="text/css" media="screen and (min-width: 700px), screen and (min-device-width: 700px)">
+<style type="text/css" media="screen and (min-width: 700px)">
 
   @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 

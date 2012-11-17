@@ -62,18 +62,23 @@ h3 a {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 58, ../sass/screen.sass */
-.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
-  line-height: 0;
+/* line 56, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .view-content .views-row {
+  position: relative;
 }
-/* line 60, ../sass/screen.sass */
-.view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
-  max-width: 100%;
-  height: auto;
+/* line 61, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .view-content .views-row span a {
+  font-size: 100%;
+}
+/* line 66, ../sass/screen.sass */
+.view-hear-me-your-story-through-tattoos- .item-list ul {
+  margin: 0;
+  padding: 3%;
+  font-size: 100%;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 69, ../sass/screen.sass */
+/* line 77, ../sass/screen.sass */
 .node-type-personal-story .field-slideshow {
   float: left;
   margin-right: 0.5%;

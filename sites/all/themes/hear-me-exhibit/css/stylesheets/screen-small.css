@@ -219,9 +219,10 @@ h3 a:hover {
 /* line 134, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul {
   margin: 0;
-  padding: 3%;
+  padding: 1%;
+  font-size: 170%;
 }
-/* line 138, ../sass/screen-small.sass */
+/* line 140, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -232,7 +233,7 @@ h3 a:hover {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 142, ../sass/screen-small.sass */
+/* line 144, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row {
   margin-bottom: 10px;
   padding: 2px;
@@ -253,50 +254,51 @@ h3 a:hover {
   transition-timing-function: ease-in-out;
   display: inline-block;
 }
-/* line 153, ../sass/screen-small.sass */
+/* line 155, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item {
   line-height: 0;
 }
-/* line 155, ../sass/screen-small.sass */
+/* line 157, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .field-name-field-image .field-item img {
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
-/* line 160, ../sass/screen-small.sass */
+/* line 162, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-view-node {
   display: none;
   visibilty: invisible;
 }
-/* line 164, ../sass/screen-small.sass */
+/* line 166, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title {
   position: relative;
 }
-/* line 166, ../sass/screen-small.sass */
+/* line 168, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span {
   top: 0;
   left: 0;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 172, ../sass/screen-small.sass */
+/* line 174, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row .views-field-title span a {
   padding: 5px 10px 5px 10px;
   display: block;
   color: white;
   text-decoration: none;
+  font-size: 200%;
 }
-/* line 180, ../sass/screen-small.sass */
+/* line 184, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .fade-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 183, ../sass/screen-small.sass */
+/* line 187, ../sass/screen-small.sass */
 .view-hear-me-your-story-through-tattoos- .views-row:hover {
   background: #aaaaaa;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 191, ../sass/screen-small.sass */
+/* line 195, ../sass/screen-small.sass */
 .node-type-personal-story .hear-me-back-button {
   width: 30px;
   height: 30px;
@@ -305,39 +307,39 @@ h3 a:hover {
   margin-top: 5px;
   cursor: pointer;
 }
-/* line 199, ../sass/screen-small.sass */
+/* line 203, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide {
   padding: 0.5%;
 }
-/* line 201, ../sass/screen-small.sass */
+/* line 205, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow-slide img {
   max-width: 100%;
   height: auto;
 }
-/* line 205, ../sass/screen-small.sass */
+/* line 209, ../sass/screen-small.sass */
 .node-type-personal-story .activeSlide {
   background-color: #aaaaaa;
 }
-/* line 208, ../sass/screen-small.sass */
+/* line 212, ../sass/screen-small.sass */
 .node-type-personal-story .field-slideshow {
   clear: both;
 }
-/* line 212, ../sass/screen-small.sass */
+/* line 216, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul {
   margin: 0;
   padding: 0;
 }
-/* line 215, ../sass/screen-small.sass */
+/* line 219, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li {
   padding: 0.5%;
   margin: 0.5%;
 }
-/* line 218, ../sass/screen-small.sass */
+/* line 222, ../sass/screen-small.sass */
 .node-type-personal-story .item-list ul li a {
   line-height: 0;
   display: block;
 }
-/* line 223, ../sass/screen-small.sass */
+/* line 227, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-label {
   text-transform: uppercase;
   font-size: 70%;
@@ -345,15 +347,15 @@ h3 a:hover {
   color: #aaaaaa;
   float: left;
 }
-/* line 230, ../sass/screen-small.sass */
+/* line 234, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 233, ../sass/screen-small.sass */
+/* line 237, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline;
 }
-/* line 235, ../sass/screen-small.sass */
+/* line 239, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item a {
   font-size: 80%;
   padding: 5px 5px 5px 30px;
@@ -363,28 +365,28 @@ h3 a:hover {
   text-transform: uppercase;
   background: url("images/tag-icon.png") left center no-repeat;
 }
-/* line 245, ../sass/screen-small.sass */
+/* line 249, ../sass/screen-small.sass */
 .node-type-personal-story .field-name-field-tags .field-items a:hover {
   border-bottom: 1px dotted #aaaaaa;
 }
 
 /*---------------- footer ---------------- */
-/* line 251, ../sass/screen-small.sass */
+/* line 255, ../sass/screen-small.sass */
 footer {
   margin-top: 2%;
 }
-/* line 253, ../sass/screen-small.sass */
+/* line 257, ../sass/screen-small.sass */
 footer h2 {
   font-size: 130%;
   color: #aaaaaa;
 }
 
-/* line 259, ../sass/screen-small.sass */
+/* line 263, ../sass/screen-small.sass */
 .region-footer-firstcolumn img {
   float: left;
   padding: 0 2% 0 0;
 }
-/* line 262, ../sass/screen-small.sass */
+/* line 266, ../sass/screen-small.sass */
 .region-footer-firstcolumn p {
   font-size: 80%;
 }

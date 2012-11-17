@@ -1,10 +1,10 @@
 /*
-Syntax error: Undefined mixin 'colurmn-fill'.
-        on line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass, in `colurmn-fill'
+Syntax error: Undefined mixin 'column-fill'.
+        on line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass, in `column-fill'
         from line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass
 
 Backtrace:
-/Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass:141:in `colurmn-fill'
+/Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass:141:in `column-fill'
 /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass:141
 /opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
 /opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
@@ -86,4 +86,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'colurmn-fill'.\A         on line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass, in `colurmn-fill'\A         from line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass"; }
+  content: "Syntax error: Undefined mixin 'column-fill'.\A         on line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass, in `column-fill'\A         from line 141 of /Users/davidmoore/Sites/ssac/sites/all/themes/hear-me-exhibit/css/sass/screen-small.sass"; }

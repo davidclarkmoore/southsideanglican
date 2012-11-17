@@ -48,8 +48,6 @@
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css" />
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-ie8.css" />
 
-  <script type="text/javascript" src="/sites/all/themes/hear-me-exhibit/scripts/css3-multi-column.js"></script>
-
 <![endif]-->
 
 

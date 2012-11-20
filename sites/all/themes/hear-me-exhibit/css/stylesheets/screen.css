@@ -69,11 +69,15 @@ h3 {
   color: #b0b0b0;
 }
 
-/* line 63, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
+#block-block-10 {
+  margin: 0 0 3% 0;
+}
+/* line 64, ../sass/screen.sass */
 #block-block-10 .content {
   text-align: center;
 }
-/* line 66, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 #block-block-10 p, #block-block-10 a {
   color: #aaaaaa;
   font-family: "arvil_sansregular";
@@ -82,7 +86,7 @@ h3 {
 }
 
 /*---------------- tiles ---------------- */
-/* line 78, ../sass/screen.sass */
+/* line 79, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 5;
   -webkit-column-count: 5;
@@ -93,33 +97,33 @@ h3 {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 83, ../sass/screen.sass */
+/* line 84, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row {
   position: relative;
 }
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row span a {
   font-size: 100%;
 }
-/* line 94, ../sass/screen.sass */
+/* line 95, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager {
-  margin: 0 0 0 0;
+  margin: -8% 0 0 0;
   padding: 3%;
   font-size: 100%;
 }
 
 /*---------------- personal story page ---------------- */
-/* line 105, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 .node-type-personal-story .field-slideshow {
   float: left;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-/* line 110, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 113, ../sass/screen.sass */
+/* line 114, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline;
   margin: 0 0.5% 0 0.5%;

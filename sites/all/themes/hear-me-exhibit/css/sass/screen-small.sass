@@ -187,28 +187,26 @@ h3
 	.view-content
 		+column-count(3)
 		+column-gap(10px)
-		-webkit-column-fill: auto
-		-moz-column-fill: auto
-		column-fill: auto
+
 
 	.views-row
 		margin-bottom: 8px
-		padding: 2px
 		cursor: pointer
 		+opacity(1)
 		+transition-property(opacity)
 		+transition-duration(1s)
 		+transition-timing-function(ease-in-out)
-		display: inline
-
+		display: inline-block
+		padding: 2px
 
 		.field-name-field-image
 			.field-item
 				line-height: 0
+				
+
 				img
 					max-width: 100%
 					height: auto
-
 
 		.views-field-view-node
 			display: none
@@ -217,8 +215,8 @@ h3
 		.views-field-title
 			position: relative
 			span
-				top: 0
-				left: 0
+				top: 2px
+				left: 2px
 				position: absolute
 				background: rgba(0,0,0,.5)
 
@@ -234,7 +232,7 @@ h3
 
 	.fade-in
 		+opacity(1)
-
+		
 	.views-row:hover
 		background: $grey
 

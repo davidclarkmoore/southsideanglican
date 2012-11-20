@@ -17,6 +17,11 @@ p {
 
 /*---------------- Header ---------------- */
 /* line 28, ../sass/screen.sass */
+header {
+  margin-top: 1%;
+}
+
+/* line 31, ../sass/screen.sass */
 #church-link {
   width: 30%;
   float: left;
@@ -26,7 +31,7 @@ p {
   display: block;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 #share-link {
   width: 30%;
   float: right;
@@ -34,12 +39,12 @@ p {
   text-align: right;
   margin-top: 10%;
 }
-/* line 42, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 #share-link a {
   margin: 0 2% 0 2%;
 }
 
-/* line 45, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 #hear-me-logo {
   max-width: 25%;
   height: auto;
@@ -59,16 +64,16 @@ p {
   cursor: pointer;
 }
 
-/* line 55, ../sass/screen.sass */
+/* line 58, ../sass/screen.sass */
 h3 {
   color: #b0b0b0;
 }
 
-/* line 60, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 #block-block-10 .content {
   text-align: center;
 }
-/* line 63, ../sass/screen.sass */
+/* line 66, ../sass/screen.sass */
 #block-block-10 p, #block-block-10 a {
   color: #aaaaaa;
   font-family: "arvil_sansregular";
@@ -77,7 +82,7 @@ h3 {
 }
 
 /*---------------- tiles ---------------- */
-/* line 75, ../sass/screen.sass */
+/* line 78, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content {
   -moz-column-count: 5;
   -webkit-column-count: 5;
@@ -88,15 +93,15 @@ h3 {
   -o-column-gap: 10px;
   column-gap: 10px;
 }
-/* line 80, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row {
   position: relative;
 }
-/* line 85, ../sass/screen.sass */
+/* line 88, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .view-content .views-row span a {
   font-size: 100%;
 }
-/* line 91, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 .view-hear-me-your-story-through-tattoos- .item-list ul.pager {
   margin: 0 0 0 0;
   padding: 3%;
@@ -104,17 +109,17 @@ h3 {
 }
 
 /*---------------- personal story page ---------------- */
-/* line 102, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
 .node-type-personal-story .field-slideshow {
   float: left;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-/* line 107, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags {
   margin: 4% 0 4% 0;
 }
-/* line 110, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .node-type-personal-story .field-name-field-tags .field-items .field-item {
   display: inline;
   margin: 0 0.5% 0 0.5%;

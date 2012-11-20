@@ -190,7 +190,7 @@ h3
 
 
 	.views-row
-		margin-bottom: 8px
+		margin: 8px 0px 0px 0px
 		cursor: pointer
 		+opacity(1)
 		+transition-property(opacity)
@@ -198,6 +198,9 @@ h3
 		+transition-timing-function(ease-in-out)
 		display: inline-block
 		padding: 2px
+		-webkit-column-break-inside: avoid
+		-moz-column-break-inside: avoid
+		column-break-inside: avoid
 
 		.field-name-field-image
 			.field-item
@@ -215,8 +218,8 @@ h3
 		.views-field-title
 			position: relative
 			span
-				top: 2px
-				left: 2px
+				top: 0
+				left: 0
 				position: absolute
 				background: rgba(0,0,0,.5)
 
@@ -232,7 +235,7 @@ h3
 
 	.fade-in
 		+opacity(1)
-		
+
 	.views-row:hover
 		background: $grey
 

@@ -13,13 +13,13 @@
 
 <style type="text/css" media="screen and (min-width: 300px)">
 
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
+  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
 
 </style>
 
 <style type="text/css" media="screen and (min-width: 769px)">
 
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
+  @import url('/ssac/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
 
 </style>
 

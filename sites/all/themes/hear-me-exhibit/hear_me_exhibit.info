@@ -15,6 +15,8 @@ regions[footer_thirdcolumn] = Footer third column
 
 stylesheets[all][] = css/stylesheets/open-sans-fontfacekit/stylesheet.css
 stylesheets[all][] = css/stylesheets/arvilwebfont/arvil.css
+stylesheets[screen and (min-width: 300px)][] = css/stylesheets/screen-small.css
+stylesheets[screen and (min-width: 769px)][] = css/stylesheets/screen.css
 
 scripts[] = scripts/clear-text.js
 scripts[] = scripts/custom.js

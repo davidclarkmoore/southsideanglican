@@ -1,0 +1,27 @@
+/* line 1, ../sass/large.scss */
+#logo {
+  width: 45%;
+  float: left;
+}
+
+/* line 7, ../sass/large.scss */
+.region-header {
+  height: 100%;
+  width: 55%;
+  float: left;
+  margin-top: 4%;
+  text-align: inherit;
+}
+
+/* line 15, ../sass/large.scss */
+ul.menu {
+  margin: 0%;
+  padding: 0%;
+  text-align: left;
+}
+
+/* line 21, ../sass/large.scss */
+#block-menu-menu-community-updates-menu li a {
+  text-decoration: none;
+  padding: 1% 3% 6% 3%;
+}

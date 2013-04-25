@@ -11,18 +11,6 @@
   <?php print $scripts; ?>
 
 
-<style type="text/css" media="screen and (min-width: 300px)">
-
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css');
-
-</style>
-
-<style type="text/css" media="screen and (min-width: 769px)">
-
-  @import url('/sites/all/themes/hear-me-exhibit/css/stylesheets/screen.css');
-
-</style>
-
 <!--[if lte IE 9]>
 
   <link rel="stylesheet" type="text/css" href="/sites/all/themes/hear-me-exhibit/css/stylesheets/screen-small.css" />

@@ -15,7 +15,10 @@ regions[footer_firstcolumn] = Footer first column
 regions[footer_secondcolumn] = Footer second column
 regions[footer_thirdcolumn] = Footer third column
 
-stylesheets[all][] = css/stylesheets/screen.css
+stylesheets[all][] = css/stylesheets/base.css
+stylesheets[all and (min-width: 640px)][] = css/stylesheets/medium.css
+stylesheets[all and (min-width: 900px)][] = css/stylesheets/large.css
+
 stylesheets[all][] = open-sans-fontfacekit/stylesheet.css
 
 scripts[] = scripts/img_height_width_removal.js

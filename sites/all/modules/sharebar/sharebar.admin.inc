@@ -14,7 +14,7 @@ function theme_sharebar_buttons_table($variables = NULL) {
   $out = '';
   $out .= '<div>' . l(t('Add New Button'), 'admin/config/sharebar/add') . '</div>';
   $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-  if (is_array($buttons) and count($buttons)) {
+  if (is_array($buttons) && count($buttons)) {
     usort($buttons, "sharebar_cmp_up");
     foreach ($buttons as $key => $value) {
       $row = array();
@@ -52,10 +52,11 @@ function theme_sharebar_buttons_table($variables = NULL) {
  */
 function sharebar_addbutton($form, &$form_state, $edit = array()) {
   $mname = arg(4);
+  $button = new stdClass();
   $button->name = $button->machine_name = $button->big_button = $button->small_button = $button->enabled = $button->weight = '';
   if ($mname) {
     $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-    if (is_array($buttons) and count($buttons)) {
+    if (is_array($buttons) && count($buttons)) {
       $button = $buttons[$mname];
     }
   }
@@ -120,10 +121,11 @@ function sharebar_addbutton_submit($form, &$form_state) {
 
   $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
 
-  if ($form_state['values']['old_machine_name'] != '' and $form_state['values']['old_machine_name'] != $form_state['values']['machine_name']) {
+  if ($form_state['values']['old_machine_name'] != '' && $form_state['values']['old_machine_name'] != $form_state['values']['machine_name']) {
     unset($buttons[$form_state['values']['old_machine_name']]);
   }
 
+  $buttons[$form_state['values']['machine_name']] = new stdClass();
   $buttons[$form_state['values']['machine_name']]->machine_name = $form_state['values']['machine_name'];
   $buttons[$form_state['values']['machine_name']]->name = $form_state['values']['name'];
   $buttons[$form_state['values']['machine_name']]->big_button = $form_state['values']['big_button'];
@@ -143,7 +145,7 @@ function sharebar_button_confirm_delete($form, &$form_state) {
   $mname = arg(4);
   if ($mname) {
     $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-    if (is_array($buttons) and count($buttons)) {
+    if (is_array($buttons) && count($buttons)) {
       $button = $buttons[$mname];
     }
   }
@@ -172,7 +174,7 @@ function sharebar_button_confirm_delete_submit($form, &$form_state) {
   $mname = arg(4);
   if ($form_state['values']['machine_name']) {
     $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-    if (is_array($buttons) and count($buttons)) {
+    if (is_array($buttons) && count($buttons)) {
       unset($buttons[$form_state['values']['machine_name']]);
       variable_set('sharebar_buttons', serialize($buttons));
     }
@@ -190,10 +192,10 @@ function sharebar_button_confirm_delete_submit($form, &$form_state) {
  */
 function sharebar_machine_name_load($name) {
   $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-  if (is_array($buttons) and count($buttons)) {
+  if (array_key_exists($name, $buttons)) {
     $button[] = $buttons[$name]->machine_name;
+    return reset($button);
   }
-  return reset($button);
 }
 
 /**
@@ -253,7 +255,7 @@ function sharebar_settings() {
   );
   $node_types = node_type_get_types();
   $node_names = node_type_get_names();
-  if (is_array($node_names) and count($node_names)) {
+  if (is_array($node_names) && count($node_names)) {
     foreach ($node_names as $key => $value) {
       $form['addsharebar']['nodetypes']['sharebar_bar_posts_' . $node_types[$key]->type . '_enabled'] = array(
         '#type' => 'checkbox',

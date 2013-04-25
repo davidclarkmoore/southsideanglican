@@ -198,6 +198,7 @@ width:100%;
 .region-homepage-slider {
 position:relative;
 clear:both;
+margin-bottom: 4%;
 
 }
 
@@ -284,7 +285,7 @@ clear:both;
 
 
 
-#edit-mailchimp-lists-mailchimp-1-title label {
+#edit-mailchimp-lists-mailchimp-1-title label, #edit-mailchimp-lists-mailchimp-contact-us-form-title {
 color: #000000;
 font-size: 170%;
 margin: 0px;
@@ -327,7 +328,7 @@ clear:both;
 
 .form-type-textfield input {
 @include border-radius (5px);
-height: 25px;
+height: 35px;
 width: 80%;
 font-size: 100%;
 font-family: 'OpenSansRegular';
@@ -774,9 +775,11 @@ overflow:hidden;
 /*---------------- Footer ---------------- */
 
 footer {
+	
 	clear:both;
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 4%;
 	margin-bottom: 8%;
 	overflow: hidden;
 	

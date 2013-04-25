@@ -117,7 +117,7 @@ function sharebar_init() {
 function sharebar_preprocess_region(&$variables) {
   if ($variables['region'] == 'content') {
     if (arg(0) != 'admin') {
-      if ((arg(0) == 'node' && is_numeric(arg(1)) && arg(2) == '' && variable_get('sharebar_bar_posts_' . $variables['elements']['system_main']['nodes'][arg(1)]['#node']->type . '_enabled', TRUE)) || (!(arg(0) == 'node' and is_numeric(arg(1))) and arg(1) != 'add' && arg(2) != 'edit' && arg(3) != 'edit' && variable_get('sharebar_bar_pages_enabled', TRUE))) {
+      if ((arg(0) == 'node' && is_numeric(arg(1)) && arg(2) == '' && variable_get('sharebar_bar_posts_' . $variables['elements']['system_main']['nodes'][arg(1)]['#node']->type . '_enabled', TRUE)) || (!(arg(0) == 'node' && is_numeric(arg(1))) && arg(1) != 'add' && arg(2) != 'edit' && arg(3) != 'edit' && variable_get('sharebar_bar_pages_enabled', TRUE))) {
         $strh = '';
         $sbg = variable_get('sharebar_bar_background', 'FFFFFF');
         $sborder = variable_get('sharebar_bar_border', 'CCCCCC');
@@ -138,7 +138,7 @@ function sharebar_preprocess_region(&$variables) {
         }
         $str = '<ul id="' . $cls . '" style="background:#' . $sbg . ';border-color:#' . $sborder . ';margin-top:' . variable_get('sharebar_bar_toptoffset', 0) . 'px;' . $sty . '">';
         $buttons = unserialize(variable_get('sharebar_buttons', sharebar_buttons_def()));
-        if (is_array($buttons) and count($buttons)) {
+        if (is_array($buttons) && count($buttons)) {
           usort($buttons, "sharebar_cmp_up");
           foreach ($buttons as $key => $value) {
             if ($value->enabled) {
@@ -181,6 +181,7 @@ function sharebar_cmp_down($a, $b) {
  */
 function sharebar_bar_filter($input, $title = '') {
   $name = '';
+  global $base_url;
   if (arg(0) == 'node' && is_numeric(arg(1))) {
     $node = node_load(arg(1));
     if ($node->nid > 0) {
@@ -188,7 +189,8 @@ function sharebar_bar_filter($input, $title = '') {
       $name = $node->name;
     }
   }
-  $currenturl = 'http://' . $_SERVER['HTTP_HOST'] . request_uri();
+  $path = isset($_GET['q']) ? $_GET['q'] : '<front>';
+  $currenturl = url($path, array('absolute' => TRUE));
   $code = array('[title]',
     '[url]',
     '[author]',
@@ -196,7 +198,7 @@ function sharebar_bar_filter($input, $title = '') {
   $values = array($title,
     $currenturl,
     $name,
-    variable_get('sharebar_bar_twitter_username', 'themesnap'));
+    variable_get('sharebar_bar_twitter_username', 'nmudgal'));
   return str_replace($code, $values, $input);
 }
 

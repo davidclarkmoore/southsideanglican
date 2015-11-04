@@ -177,21 +177,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'episcop4_southsideanglican_prod',
-      'username' => 'admin',
-      'password' => 'admin',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+
 
 /**
  * Access control for update.php script.

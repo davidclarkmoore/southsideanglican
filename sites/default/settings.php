@@ -182,9 +182,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'episcop4_southsideanglican_test',
-      'username' => 'episcop4_ssatest',
-      'password' => 'Ssa&SKR*',
+      'database' => 'episcop4_southsideanglican_prod',
+      'username' => 'episcop4_ssaprod',
+      'password' => 'SSA12*p',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

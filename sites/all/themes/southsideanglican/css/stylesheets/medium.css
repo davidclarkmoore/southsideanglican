@@ -27,15 +27,24 @@
 
 /*---------------- Community Updates Menu ---------------- */
 /* line 35, ../sass/medium.scss */
-.front .region-column-one, .front .region-column-two {
-  width: 48%;
+.front .region-column-one {
+  width: 38%;
   margin: 1%;
   height: 100%;
   float: left;
   clear: none;
 }
 
-/* line 43, ../sass/medium.scss */
+/* line 44, ../sass/medium.scss */
+.front .region-column-two {
+  width: 58%;
+  margin: 1%;
+  height: 100%;
+  float: left;
+  clear: none;
+}
+
+/* line 52, ../sass/medium.scss */
 #page-content {
   width: 68%;
   margin: 0% 2% 0% 0%;
@@ -43,7 +52,7 @@
   clear: none;
 }
 
-/* line 50, ../sass/medium.scss */
+/* line 59, ../sass/medium.scss */
 #page-column-wrapper {
   width: 30%;
   float: left;
@@ -51,7 +60,7 @@
   margin: 0% 0% 0% 0%;
 }
 
-/* line 57, ../sass/medium.scss */
+/* line 66, ../sass/medium.scss */
 #page-content-wrapper {
   clear: both;
   height: 100%;
@@ -61,27 +70,27 @@
 }
 
 /*---------------- Footer ---------------- */
-/* line 67, ../sass/medium.scss */
+/* line 76, ../sass/medium.scss */
 footer {
   vertical-align: top;
 }
 
-/* line 71, ../sass/medium.scss */
+/* line 80, ../sass/medium.scss */
 .region-footer-firstcolumn, .region-footer-secondcolumn, .region-footer-thirdcolumn {
   float: left;
-  width: 32%;
+  width: 33.33333%;
   clear: none;
-  padding: 0;
-  margin: 0% 1% 0% 0%;
+  padding: 1%;
+  margin: 0%;
   display: block;
 }
 
-/* line 80, ../sass/medium.scss */
+/* line 89, ../sass/medium.scss */
 .region-footer-thirdcolumn {
   margin-right: 0%;
 }
 
-/* line 85, ../sass/medium.scss */
+/* line 94, ../sass/medium.scss */
 .views-slideshow-controls-bottom {
   display: block;
 }

@@ -32,8 +32,17 @@ margin: 0 auto;
 
 
 
-.front .region-column-one, .front .region-column-two {
-width: 48%;
+.front .region-column-one {
+width: 38%;
+margin: 1%;
+height: 100%;
+float:left;
+clear: none;
+}
+
+
+.front .region-column-two {
+width: 58%;
 margin: 1%;
 height: 100%;
 float:left;
@@ -70,10 +79,10 @@ footer {
 
 .region-footer-firstcolumn, .region-footer-secondcolumn, .region-footer-thirdcolumn {
 	float:left;
-	width:32%;
+	width:33.33333%;
 	clear: none;
-	padding: 0;
-	margin: 0% 1% 0% 0%;
+	padding: 1%;
+	margin: 0%;
 	display: block;
 }
 

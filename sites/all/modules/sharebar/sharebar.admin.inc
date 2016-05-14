@@ -298,6 +298,42 @@ function sharebar_settings() {
     '#default_value' => variable_get('sharebar_bar_credit', TRUE),
   );
 
+  $form['displayoptions']['sharebar_bar_idcontent'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Custom CSS Container when displayed in content region(only id selector is supported)'),
+    '#size' => 10,
+    '#default_value' => variable_get('sharebar_bar_idcontent', 'sharebarp'),
+    '#states' => array(
+      'visible' => array (
+        ':input[name="sharebar_bar_oncontent"]' => array('checked' => TRUE),
+      ),
+    ),
+  );
+
+  $form['displayoptions']['sharebar_bar_id'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Custom CSS Container when not displayed in content region (only id selector is supported)'),
+    '#size' => 10,
+    '#default_value' => variable_get('sharebar_bar_id', 'sharebar'),
+    '#states' => array(
+      'visible' => array (
+        ':input[name="sharebar_bar_oncontent"]' => array('checked' => FALSE),
+      ),
+    ),
+  );
+
+  $form['displayoptions']['sharebar_bar_idhorizontal'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Custom CSS Container when displayed horizontally (only id selector is supported)'),
+    '#size' => 10,
+    '#default_value' => variable_get('sharebar_bar_idhorizontal', 'sharebarx'),
+    '#states' => array(
+      'visible' => array (
+        ':input[name="sharebar_bar_horizontal"]' => array('checked' => TRUE),
+      ),
+    ),
+  );
+
   $form['displayoptions']['sharebar_bar_toptoffset'] = array(
     '#type' => 'textfield',
     '#title' => t('Top offset'),
@@ -353,7 +389,7 @@ function sharebar_settings() {
     '#type' => 'textfield',
     '#title' => t('Twitter Username'),
     '#size' => 10,
-    '#default_value' => variable_get('sharebar_bar_twitter_username', 'themesnap'),
+    '#default_value' => variable_get('sharebar_bar_twitter_username', 'nmudgal'),
   );
 
   $form['customize']['sharebar_bar_background'] = array(

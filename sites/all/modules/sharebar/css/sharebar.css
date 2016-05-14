@@ -38,7 +38,7 @@ body ul#sharebarp li {
     display: block;
     margin: 5px;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     text-align: center;
     background-image: none;
 }

@@ -6,41 +6,43 @@
  */
 jQuery.fn.sharebar = function(options) {
     var defaults = {horizontal: true, swidth: 65, minwidth: 1000, position: 'left', leftOffset: 20, rightOffset: 10};
-    var opts = jQuery.extend(defaults, options); var o = jQuery.meta ? jQuery.extend({}, opts, jQueryjQuery.data()) : opts;
-
+    var opts = jQuery.extend(defaults, options);
+    var o = jQuery.meta ? jQuery.extend({}, opts, jQueryjQuery.data()) : opts;
     var w = jQuery(window).width();
-    var sharebar = jQuery('#sharebar');
-    var sharebarx = jQuery('#sharebarx');
+    var sharebar = jQuery(Drupal.settings.sharebar.cls);
+    var sharebarx = jQuery(Drupal.settings.sharebar.hrcls);
     var parent = jQuery(sharebar).parent().width();
     var start = sharebar_init();
 
-    function sharebar_init(){
+    function sharebar_init() {
         jQuery(sharebar).css('width',o.swidth+'px');
         if (o.position == 'left') {
             jQuery(sharebar).css('marginLeft',(0-o.swidth-o.leftOffset));
         }
-	else {
+	    else {
             jQuery(sharebar).css('marginLeft',(parent+o.rightOffset));
         }
-	if(w < o.minwidth && o.horizontal) {
+	    if(w < o.minwidth && o.horizontal) {
             jQuery(sharebarx).slideDown();
         }
         else {
             jQuery(sharebar).fadeIn();
         }
         jQuery.event.add(window, "scroll", sharebar_scroll);
-	jQuery.event.add(window, "resize", sharebar_resize);
-	if (jQuery(sharebar).offset() != null)
-	  return jQuery(sharebar).offset().top;
+	    jQuery.event.add(window, "resize", sharebar_resize);
+	    if (jQuery(sharebar).offset() != null) {
+            return jQuery(sharebar).offset().top;
+        }
     }
+
     function sharebar_resize() {
         var w = jQuery(window).width();
-	if(w<o.minwidth) {
+	    if(w<o.minwidth) {
             jQuery(sharebar).fadeOut();
             if(o.horizontal) {
                 jQuery(sharebarx).slideDown();
             }
-	}
+	    }
         else{
             jQuery(sharebar).fadeIn();
             if(o.horizontal) {
@@ -48,10 +50,11 @@ jQuery.fn.sharebar = function(options) {
             }
         }
     }
+
     function sharebar_scroll() {
         var p = jQuery(window).scrollTop();
-	var w = jQuery(window).width();
-	jQuery(sharebar).css('position',((p+10)>start) ? 'fixed' : 'absolute');
-	jQuery(sharebar).css('top',((p+10)>start) ? '10px' : '');
+    	var w = jQuery(window).width();
+    	jQuery(sharebar).css('position',((p+10)>start) ? 'fixed' : 'absolute');
+    	jQuery(sharebar).css('top',((p+10)>start) ? '10px' : '');
     }
 };
